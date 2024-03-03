@@ -1,5 +1,24 @@
 nav {
-    background-color: red;
     display: flex;
-    justify-content: space-between;
+    color: white;
+    font-family: "Racing Sans One", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-color: #0524C1;
+    border-bottom-left-radius: 100px;
+}
+
+.navLinks a {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.navLinks a:visited {
+    color: white;
+}
+
+.navLinks a:hover {
+    background-color: red;
+    border-radius: 200px;
 }

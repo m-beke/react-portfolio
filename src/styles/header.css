@@ -2,6 +2,9 @@ header {
     background-color: #0524C1;
     color: white;
     font-size: 30px;
+    font-family: "Racing Sans One", sans-serif;
     display: flex;
-    justify-content: space-between;
+    border-bottom-right-radius: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
 }

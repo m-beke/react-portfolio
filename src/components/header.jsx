@@ -2,8 +2,8 @@ import '../styles/header.css';
 
   function Header() {
     return (
-      <header className="header">
-        <h1>Matthew Beke</h1>
+      <header className="heading">
+        <h1>MATTHEW BEKE</h1>
       </header>
     );
   }
