@@ -5,8 +5,8 @@ function Navbar() {
     return (
       <nav className="navLinks">
         <Link to="/About">ABOUT ME</Link>
-        <a href=''>PORTFOLIO</a>
-        <a href=''>RESUME</a>
+        <Link to='/Portfolio'>PORTFOLIO</Link>
+        <Link to='/Resume'>RESUME</Link>
       </nav>
     );
   }
