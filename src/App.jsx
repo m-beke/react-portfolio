@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Outlet } from 'react-router-dom';
 import './App.css'
 import Header from './components/header';
 import Navbar from './components/navbar';
@@ -11,19 +11,12 @@ function App() {
         <Header />
         <Navbar />
       </div>
-      <div className='aboutPage'>
-        <div className='mainHeading'>
-          <h1>ABOUT</h1>
-        </div>
-        <div className='aboutP'>
-          <p>My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me.</p>
-        </div>
-      </div>
-      <footer className='appFooter'>
+        <Outlet />
+      <div>
         <Footer />
-      </footer>
+      </div>
     </>
   )
 }
 
-export default App
+export default App;

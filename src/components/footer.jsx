@@ -3,7 +3,7 @@ import '../styles/footer.css';
 function Footer() {
     return (
       <div className='appFooter'>
-        <h1>Test</h1>
+        <h2>Test</h2>
       </div>
     );
   }
