@@ -4,7 +4,6 @@ header {
     font-size: 80px;
     font-family: "Racing Sans One", sans-serif;
     display: flex;
-    border-bottom-right-radius: 100px;
     padding-left: 30px;
     padding-right: 60px;
     padding-top: 10px;
@@ -13,11 +12,56 @@ header {
     
 }
 
+
 header a {
     text-decoration: none;
+    margin-left: 0px;
+    padding-left: 70px;
+    padding-right: 100px;
 }
 
 header a:visited {
     color: white;
     text-decoration: none;
+}
+
+header a:hover {
+    color: black;
+    background-color: red;
+	-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	animation: panbg .5s linear infinite;
+	-webkit-animation: panbg .5s linear infinite;
+	opacity: 1;
+	-webkit-transition: ALL .2s;
+    transition: all .2s;
+}
+
+@keyframes panbg{
+	0%{
+		-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+		clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	}
+	50%{
+		-webkit-clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+		clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+	}
+	100%{
+		-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+		clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	}
+}
+@-webkit-keyframes panbg{
+	0%{
+		-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+		clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	}
+	50%{
+		-webkit-clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+		clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+	}
+	100%{
+		-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+		clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	}
 }

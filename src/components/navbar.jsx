@@ -7,7 +7,7 @@ function Navbar() {
         <Link to="/About">ABOUT ME</Link>
         <Link to='/Portfolio'>PORTFOLIO</Link>
         <Link to='/Resume'>RESUME</Link>
-        
+        <Link to='/Contact'>CONTACT ME</Link>
       </nav>
     );
   }

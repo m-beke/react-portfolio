@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import PortfolioPage from './pages/PortfolioPage.jsx';
 import ResumePage from './pages/ResumePage.jsx';
+import ContactPage from './pages/ContactPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/Resume',
         element: <ResumePage />
+      },
+      {
+        path: '/Contact',
+        element: <ContactPage />
       }
     ],
   },
