@@ -1,6 +1,8 @@
+import '../styles/resume.css';
+
 const ResumePage = () => {
     return (
-        <div>
+        <div className='resume'>
             <h1>Resume TEST</h1>
         </div>
     )
