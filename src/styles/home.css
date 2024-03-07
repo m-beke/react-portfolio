@@ -1,0 +1,48 @@
+.home-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-left: 10%;
+    margin-right:10%;
+    transform: skew(10deg);
+    padding: 20px;
+}
+
+.home-portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-left: 10%;
+    margin-right:10%;
+    transform: skew(10deg);
+    padding: 20px;
+}
+
+.home-resume {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-left: 10%;
+    margin-right:10%;
+    transform: skew(10deg);
+    padding: 20px;
+}
+
+.home-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-left: 10%;
+    margin-right:10%;
+    transform: skew(10deg);
+    padding: 20px;
+}
