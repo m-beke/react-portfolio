@@ -1,3 +1,81 @@
 .portfolio {
-    color: red;
+    display: flex;
+    color: black;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-bottom: -135px;
+    margin-top: -20px;
 }
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding:50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    transform: skew(10deg);
+}
+
+.projects a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+    color: white;
+    transform: skew(-10deg);
+    padding: 40px;
+    text-decoration: none;
+    
+}
+
+.projects img {
+    display: flex;
+    max-width: 70%;
+    padding: 30px;
+    background-color: white;
+}
+
+.projects a:hover {
+        color: black;
+          background-color: red;
+          -webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+          clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+          animation: panbg .5s linear infinite;
+          -webkit-animation: panbg .5s linear infinite;
+          opacity: 1;
+          -webkit-transition: ALL .2s;
+          transition: all .2s;
+      }
+      
+      @keyframes panbg{
+          0%{
+              -webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+              clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+          }
+          50%{
+              -webkit-clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+              clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+          }
+          100%{
+              -webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+              clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+          }
+      }
+      @-webkit-keyframes panbg{
+          0%{
+              -webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+              clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+          }
+          50%{
+              -webkit-clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+              clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+          }
+          100%{
+              -webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+              clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+          }
+}
+
