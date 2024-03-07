@@ -14,24 +14,26 @@ import reactImg from '../assets/images/react.svg';
 const ResumePage = () => {
     return (
         <>
-        <div className='resume'>
-            <h1>RESUME</h1>
-        </div>
-            <div className='language-icons'>
-                <img src={html}></img>
-                <img src={css}></img>
-                <img src={javascript}></img>
-                <img src={jQuery}></img>
-                <img src={nodeJS}></img>
-                <img src={handlebars}></img>
-                <img src={npm}></img>
-                <img src={mySQL}></img>
-                <img src={sequelize}></img>
-                <img src={mongoDB}></img>
-                <img src={reactImg}></img>
+            <div className='resume-bg'>
+                <div className='resume'>
+                    <h1>RESUME</h1>
+                </div>
+                <div className='language-icons'>
+                    <img src={html}></img>
+                    <img src={css}></img>
+                    <img src={javascript}></img>
+                    <img src={jQuery}></img>
+                    <img src={nodeJS}></img>
+                    <img src={handlebars}></img>
+                    <img src={npm}></img>
+                    <img src={mySQL}></img>
+                    <img src={sequelize}></img>
+                    <img src={mongoDB}></img>
+                    <img src={reactImg}></img>
+                </div>
             </div>
         </>
-        
+
     )
 }
 

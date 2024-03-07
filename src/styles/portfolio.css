@@ -5,7 +5,7 @@
     font-size: 60px;
     margin-left: 200px;
     margin-bottom: -135px;
-    margin-top: -20px;
+    margin-top: -40px;
 }
 
 .projects {
@@ -27,6 +27,7 @@
     color: white;
     transform: skew(-10deg);
     padding: 40px;
+    padding-bottom: 100px;
     text-decoration: none;
     
 }

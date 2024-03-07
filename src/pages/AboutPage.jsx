@@ -6,8 +6,10 @@ function AboutPage() {
         <div className='mainHeading'>
           <h1>ABOUT</h1>
         </div>
-        <div className='aboutP'>
+        <div className='about-card'>
+        <div className='about-p'>
           <p>My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me. My name is blank and this is a paragraph about me.</p>
+        </div>
         </div>
       </div>
     );

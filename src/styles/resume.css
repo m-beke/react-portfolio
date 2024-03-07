@@ -9,16 +9,24 @@
 .resume h1{
     color: black;
     font-size: 100px;
+    margin-bottom: -40px;
+    margin-left: 12%;
 }
 
 .language-icons {
+    background-color: gray;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    transform: skew(10deg);
 }
 
 .language-icons img {
-    max-width: 12%;
+    max-width: 10%;
+    transform: skew(-10deg);
 }
