@@ -1,0 +1,65 @@
+.app-footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 50px;
+    border-top-left-radius: 80%;
+}
+
+.app-footer a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 30px;
+    transform: rotate(-20deg);
+    padding: 15px;
+    padding-right: 20px;
+}
+
+.app-footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.app-footer a:hover {
+    color: black;
+    background-color: red;
+	-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	animation: panbg .5s linear infinite;
+	-webkit-animation: panbg .5s linear infinite;
+	opacity: 1;
+	-webkit-transition: ALL .2s;
+    transition: all .2s;
+}
+
+@keyframes panbg{
+	0%{
+		-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+		clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	}
+	50%{
+		-webkit-clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+		clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+	}
+	100%{
+		-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+		clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	}
+}
+@-webkit-keyframes panbg{
+	0%{
+		-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+		clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	}
+	50%{
+		-webkit-clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+		clip-path: polygon(5% 5%, 93% 15%, 82% 87%, 2% 76%);
+	}
+	100%{
+		-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+		clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
+	}
+}

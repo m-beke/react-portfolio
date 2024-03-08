@@ -2,11 +2,6 @@
   .mainHeading h1 {
     display: flex;
     font-family: "Racing Sans One", sans-serif;
-    /* position: absolute;
-    transform: rotate(90deg);
-    font-size: 300px;
-    margin-left: -360px;
-    top: 250px; */
     font-size: 100px;
     color: black;
     margin-bottom: -40px;
