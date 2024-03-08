@@ -14,16 +14,25 @@ const PortfolioPage = () => {
             <a href="https://shawki45.github.io/Flavor-Trail/">Flavor Trail
                 <img src={flavorTrail} alt="Flavor Trail Screenshot"></img>
             </a>
+            <div className='repo-link'>
+            <a href="https://github.com/m-beke/chronos">REPOSITORY</a>
+            </div>
             </div>
             <div className='project-card'>
             <a href="https://still-oasis-92537-ca9b2c9be51c.herokuapp.com/">StreamScape
                 <img src={streamScape} alt="StreamScape Screenshot"></img>
             </a>
+            <div className='repo-link'>
+            <a href="https://github.com/m-beke/chronos">REPOSITORY</a>
+            </div>
             </div>
             <div className='project-card'>
             <a href="">Chronos
                 <img src={chronos}></img>
             </a>
+            <div className='repo-link'>
+            <a href="https://github.com/m-beke/chronos">REPOSITORY</a>
+            </div>
             </div>
         </div>
         </>

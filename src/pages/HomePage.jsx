@@ -5,20 +5,27 @@ const HomePage = () => {
   return (
     <>
     <div className='home-heading'>
-      <h1>Home Test</h1>
+      <h1>ABOUT</h1>
+      <h1>PORTFOLIO</h1>
+      <h1>RESUME</h1>
+      <h1>CONTACT</h1>
     </div>
     <div className="home-cards">
       <div className="home-about">
-        <Link to='/About'>ABOUT ME</Link>
+        <p>Learn more about me!</p>
+        <Link to='/About'>MORE INFO</Link>
       </div>
       <div className="home-portfolio">
-        <Link to='/Portfolio'>PORTFOLIO</Link>
+        <p>Take a look at the projects I've worked on!</p>
+        <Link to='/Portfolio'>MORE INFO</Link>
       </div>
       <div className="home-resume">
-        <Link to='/Resume'>RESUME</Link>
+        <p>Check out my qualifications!</p>
+        <Link to='/Resume'>MORE INFO</Link>
       </div>
       <div className="home-contact">
-        <Link to='/Contact'>CONTACT ME</Link>
+        <p>Give me a call or an email!</p>
+        <Link to='/Contact'>MORE INFO</Link>
       </div>
     </div>
     </>
