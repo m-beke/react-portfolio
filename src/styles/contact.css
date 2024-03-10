@@ -1,8 +1,8 @@
 .contact h1{
     color: black;
     font-family: "Racing Sans One", sans-serif;
-    font-size: 80px;
-    margin-bottom: -35px;
+    font-size: 120px;
+    margin-bottom: -50px;
     margin-left: 200px;
 }
 
@@ -36,7 +36,7 @@
 
 .contact-card a:hover {
     color: black;
-          background-color: red;
+          background-color: #FF0022;
           -webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
           clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
           animation: panbg .5s linear infinite;

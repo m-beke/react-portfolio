@@ -4,6 +4,7 @@ import '../styles/home.css';
 const HomePage = () => {
   return (
     <>
+    <div className="home">
     <div className='home-heading'>
       <h1>ABOUT</h1>
       <h1>PORTFOLIO</h1>
@@ -27,6 +28,7 @@ const HomePage = () => {
         <p>Give me a call or an email!</p>
         <Link to='/Contact'>MORE INFO</Link>
       </div>
+    </div>
     </div>
     </>
   )

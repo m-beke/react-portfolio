@@ -1,12 +1,16 @@
+.home {
+    margin-top: 50px;
+}
+
 .home-heading {
     display: flex;
     justify-content: space-evenly;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: -55px;
+    margin-bottom: -65px;
     color: black;
     font-family: "Racing Sans One", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .home-cards {
@@ -67,7 +71,7 @@
 
 .home-cards a:hover {
     color: black;
-      background-color: red;
+      background-color: #FF0022;
       -webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
       clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
       animation: panbg .5s linear infinite;

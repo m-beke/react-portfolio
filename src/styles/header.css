@@ -27,7 +27,7 @@ header a:visited {
 
 header a:hover {
     color: black;
-    background-color: red;
+    background-color: #FF0022;
 	-webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
 	clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
 	animation: panbg .5s linear infinite;
