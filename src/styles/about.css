@@ -27,7 +27,7 @@
     padding: 40px;
   }
 
-p {
+.about-p p {
     font-family: "PT Sans", sans-serif;
     transform: skew(-10deg);
 }

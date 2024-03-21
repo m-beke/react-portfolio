@@ -1,55 +1,98 @@
-.portfolio {
+.portfolio-page {
     display: flex;
+}
+
+.portfolio {
+    position: fixed;
+    margin-left: -325px;
+    margin-top: 170px;
     color: black;
     font-family: "Racing Sans One", sans-serif;
-    font-size: 60px;
-    margin-left: 200px;
-    margin-bottom: -135px;
-    margin-top: -100px;
+    font-size: 80px;
+    transform: rotate(90deg);
 }
 
 .project-cards {
     margin: 5%;
+    margin-right:10%;
     display: flex;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 1000px) {
+    .project-cards {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      margin-left: 400px;
+    }
+  }
 
 .project-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 25%;
-    
+    font-family: "PT Sans", sans-serif;
 }
+
+@media screen and (max-width: 1000px) {
+    .project-card {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
 
 .project-card img {
-    max-width: 50%;
+    max-width: 70%;
 }
 
-.card-display {
+.project-title {
+    font-family: "Racing Sans One", sans-serif;
+}
+
+.display-bg {
     background-color: black;
     padding: 20px;
     text-align: center;
+    transform: skew(-10deg);
+}
+
+.card-display {
+    transform: skew(10deg);
+    margin: 5%;
 }
 
 a {
     color: white;
 }
 
-.project-repo {
+.project-links {
+    display: flex;
+}
+
+.deployed-link, .project-repo {
     margin-top: -20px;
     font-family: "Racing Sans One", sans-serif;
     background-color: gray;
-    padding: 20px;
-
+    padding: 15px;
+    transform: skew(10deg);
 }
 
-.repo-link {
+.deployed-link {
+    margin-right: 0px;
+}
+
+.project-repo {
+    margin-left: 20px;
+}
+
+.repo-link, .project-link {
     padding: 20px;
     text-decoration: none;
 }
 
-.repo-link:hover {
+.repo-link:hover, .project-link:hover {
         color: black;
           background-color: #FF0022;
           -webkit-clip-path: polygon(10% 10%, 89% 6%, 94% 91%, 10% 90%);
