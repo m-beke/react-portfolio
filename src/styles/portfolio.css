@@ -1,19 +1,13 @@
-.portfolio-page {
-    display: flex;
-}
-
 .portfolio {
-    position: fixed;
-    margin-left: -325px;
-    margin-top: 170px;
+    margin-top: -5%;
+    margin-bottom: -5%;
+    margin-left: 5%;
     color: black;
     font-family: "Racing Sans One", sans-serif;
-    font-size: 80px;
-    transform: rotate(90deg);
+    font-size: 60px;
 }
 
 .project-cards {
-    margin: 5%;
     margin-right:10%;
     display: flex;
     justify-content: space-evenly;
@@ -40,11 +34,13 @@
     .project-card {
       max-width: 100%;
       margin-bottom: 20px;
+      
     }
   }
 
 .project-card img {
-    max-width: 70%;
+    max-width: 100%;
+    margin-left:25px;
 }
 
 .project-title {
@@ -69,6 +65,7 @@ a {
 
 .project-links {
     display: flex;
+    margin-right: 55px;
 }
 
 .deployed-link, .project-repo {
@@ -80,7 +77,7 @@ a {
 }
 
 .deployed-link {
-    margin-right: 0px;
+
 }
 
 .project-repo {
