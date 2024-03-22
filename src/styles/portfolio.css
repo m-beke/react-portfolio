@@ -40,7 +40,7 @@
 
 .project-card img {
     max-width: 100%;
-    margin-left:25px;
+    margin-left:20px;
 }
 
 .project-title {
@@ -74,10 +74,6 @@ a {
     background-color: gray;
     padding: 15px;
     transform: skew(10deg);
-}
-
-.deployed-link {
-
 }
 
 .project-repo {

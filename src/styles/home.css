@@ -2,6 +2,15 @@
     margin-top: 50px;
 }
 
+@media screen and (max-width: 1000px) {
+    .home {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 400px;
+    }
+  }
+
 .home-heading {
     display: flex;
     justify-content: space-evenly;
