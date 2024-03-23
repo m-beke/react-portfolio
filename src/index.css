@@ -18,11 +18,3 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
-.appHeader {
-  background-color: #0524C1;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0px 5px 5px black;
-}
