@@ -14,30 +14,43 @@
 }
 
 .proficiency {
+    display: flex;
     font-family: "Racing Sans One", sans-serif;
-    transform: skew(-10deg);
     font-size: 25px;
-    margin-top: -5%;
-    margin-left: 2%;
+    margin-bottom: -5%;
+    margin-left: 3%;
+    transform: skew(-10deg);
 }
 
 .resume-card {
 background-color: #373737;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 70px;
     padding-bottom: 20px;
     transform: skew(10deg);
 }
 
 .language-icons {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .language-icons img {
-    max-width: 10%;
+    margin-left: 3%;
+    margin-right: 2%;
+    max-width: 8%;
+    transform: skew(-10deg);
+}
+
+.language-titles {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: 1%;
+    margin-right: 2%;
     transform: skew(-10deg);
 }
 
@@ -48,7 +61,7 @@ background-color: #373737;
     background-color: black;
     margin-left: 78%;
     margin-right: 10%;
-    margin-top: -2%;
+    margin-top: -1%;
     text-align: center;
     transform: skew(-10deg);
 }

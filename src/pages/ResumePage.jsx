@@ -16,11 +16,12 @@ const ResumePage = () => {
                 <div className='resume'>
                     <h1>RESUME</h1>
                 </div>
+
                 <div className='resume-card'>
+                    <div className='proficiency'>
+                        <h2>PROFICIENT IN</h2>
+                    </div>
                     <div className='language-icons'>
-                        <div className='proficiency'>
-                            <h2>PROFICIENT IN</h2>
-                        </div>
                         <img src={html}></img>
                         <img src={css}></img>
                         <img src={javascript}></img>
@@ -30,9 +31,19 @@ const ResumePage = () => {
                         <img src={mongoDB}></img>
                         <img src={reactImg}></img>
                     </div>
+                    <div className='language-titles'>
+                        <h3>HTML5</h3>
+                        <h3>CSS3</h3>
+                        <h3>Javascript</h3>
+                        <h3>Node.JS</h3>
+                        <h3>MySQL</h3>
+                        <h3>Sequelize</h3>
+                        <h3>MongoDB</h3>
+                        <h3>React</h3>
+                    </div>
                 </div>
                 <div className='download-link'>
-                    <a href={pdf} download="MB_Coding_Resume">Download</a>
+                    <a href={pdf} download="MB_Coding_Resume">DOWNLOAD</a>
                 </div>
             </div>
         </>
