@@ -4,12 +4,28 @@ nav {
 	margin-right: 5%;
 }
 
+
+
 .navLinks a {
     color: white;
     font-size: 25px;
     text-decoration: none;
     padding: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+    nav {
+		align-items: center;
+		text-align: center;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    .navLinks a {
+		font-size: 20px;
+		padding: 10px;
+    }
+  }
 
 .navLinks a:visited {
     color: white;

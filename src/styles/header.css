@@ -10,6 +10,14 @@ header {
 	font-family: "Racing Sans One", sans-serif;
 }
 
+@media screen and (max-width: 1000px) {
+    header {
+		font-size: 40px;
+		padding: 1px;
+		align-items: center;
+    }
+  }
+
 
 header a {
     text-decoration: none;
