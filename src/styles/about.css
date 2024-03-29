@@ -10,6 +10,13 @@
     margin-left: 300px;
   }
 
+  @media screen and (max-width: 1000px) {
+    .mainHeading h1 {
+      margin-left: 12%;
+      align-items: center;
+    }
+  }
+
   .about-img {
     display: flex;
     flex-direction: column;
@@ -34,6 +41,12 @@
     transform: skew(-10deg);
   }
 
+  @media screen and (max-width: 1000px) {
+    .about-link-bg {
+      transform: skew(0deg);
+    }
+  }
+
   .about-links a {
     text-decoration: none;
     padding: 15px;
@@ -47,6 +60,12 @@
     margin-right: 5%;
     background-color: #373737;
     padding: 10px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .about-img img{
+      transform: skew(0deg);
+    }
   }
 
   .about-card {
@@ -63,8 +82,17 @@
     max-width: 65%;
     margin-right: 5%;
   }
+
+  @media screen and (max-width: 1000px) {
+    .about-content {
+     transform: skew(0deg);
+     min-width: 75%;
+    }
+  }
   
   .about-p {
+    display: flex;
+    flex-direction: column;
     font-size: 30px;
     padding: 40px;
     margin-left: 5%;
@@ -73,6 +101,12 @@
 .about-p p {
     font-family: "PT Sans", sans-serif;
     transform: skew(-10deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .about-p p {
+    transform: skew(0deg);
+  }
 }
 
 .about-links a:hover {
