@@ -6,7 +6,7 @@ function AboutPage() {
   return (
     <div className='about-page'>
       <div className='mainHeading'>
-        <h1>ABOUT</h1>
+        <h1>About </h1>
       </div>
       <div className='about-card'>
         <div className='about-content'>
@@ -17,17 +17,6 @@ function AboutPage() {
           </div>
           <div className='about-img'>
             <img src={profilePic}></img>
-            <div className='about-links'>
-              <div className='about-link-bg'>
-                <Link to='/Portfolio'>PROJECTS</Link>
-              </div>
-              <div className='about-link-bg'>
-                <Link to='/Resume'>RESUME</Link>
-              </div>
-              <div className='about-link-bg'>
-                <Link to='/Contact'>CONTACT ME</Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>
