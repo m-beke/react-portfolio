@@ -10,9 +10,9 @@ function Header() {
         <a class="brand-logo"><Link to='/About'>Madeline Beke</Link></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><Link to='/Portfolio'>PROJECTS</Link></li>
-            <li><Link to='/Resume'>RESUME</Link></li>
-            <li><Link to='/Contact'>CONTACT ME</Link></li>
+            <li><Link to='/Portfolio'>Projects</Link></li>
+            <li><Link to='/Resume'>Resume</Link></li>
+            <li><Link to='/Contact'>Contact Me</Link></li>
           </ul>
           <ul class="sidenav" id="mobile-demo">
             <li><a href="sass.html">Sass</a></li>
