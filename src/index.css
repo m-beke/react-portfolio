@@ -1,20 +1,53 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: "Trirong", serif;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(4deg, #191970, #ffb7c5);
+    background-size: 400% 400%;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #B2B6DD;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    -webkit-animation: bgGradient 30s ease infinite;
+    -moz-animation: bgGradient 30s ease infinite;
+    animation: bgGradient 30s ease infinite;
 }
 
-body {
-  padding: 0px;
-  margin: 0px;
+@-webkit-keyframes bgGradient {
+    0% {
+        background-position: 53% 0%
+    }
+
+    50% {
+        background-position: 48% 100%
+    }
+
+    100% {
+        background-position: 53% 0%
+    }
+}
+
+@-moz-keyframes bgGradient {
+    0% {
+        background-position: 53% 0%
+    }
+
+    50% {
+        background-position: 48% 100%
+    }
+
+    100% {
+        background-position: 53% 0%
+    }
+}
+
+@keyframes bgGradient {
+    0% {
+        background-position: 53% 0%
+    }
+
+    50% {
+        background-position: 48% 100%
+    }
+
+    100% {
+        background-position: 53% 0%
+    }
 }
