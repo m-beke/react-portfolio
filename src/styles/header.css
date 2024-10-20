@@ -2,3 +2,8 @@ nav {
     background-color: transparent;
     box-shadow: none;
 }
+
+nav img {
+    max-width: 15%;
+    
+}
