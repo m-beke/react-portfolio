@@ -19,6 +19,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.2",
+    "react-materialize": "^3.10.0",
     "react-router-dom": "^6.11.2",
     "react-select": "^5.8.0",
     "snapsvg": "^0.5.1",
