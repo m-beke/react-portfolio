@@ -1,19 +1,21 @@
 import '../styles/about.css';
 import profilePic from "../assets/images/IMG_1448.jpg";
 import { Link } from "react-router-dom";
+import { Icon } from 'react-materialize';
+import { Pagination } from 'react-materialize';
+import { PaginationButton } from 'react-materialize';
 
 function AboutPage() {
   return (
     <>
-    <div className='about-page'>
-      <div class="carousel">
-        <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"/></a>
-        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"/></a>
-        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"/></a>
-        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"/></a>
-        <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"/></a>
-      </div>
-    </div>
+      <Pagination
+        activePage={2}
+        items={3}
+        leftBtn={<Icon>chevron_left</Icon>}
+        maxButtons={3}
+        rightBtn={<Icon>chevron_right</Icon>}
+        
+      />
     </>
   );
 }

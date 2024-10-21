@@ -7,3 +7,11 @@ nav img {
     max-width: 15%;
     
 }
+
+.sidenav {
+    background-color: black;
+}
+
+.sidenav li a {
+    color: white;
+}
