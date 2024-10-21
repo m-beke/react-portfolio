@@ -11,7 +11,7 @@ function HomePage() {
             <img src={profilePic}></img>
           </div>
           <div className='home-quote'>
-            <p>"There is an us with a pattern we are threading."</p>
+            <p>"Placeholder Quote."</p>
           </div>
         </div>
       </div>
