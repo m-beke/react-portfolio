@@ -11,9 +11,7 @@ const PortfolioPage = () => {
                     <h1>PROJECTS</h1>
                 </div>
                 <div className='project-display'>
-                    <Portfolio 
-                    
-                    />
+                    <Portfolio/>
                 </div>
             </div>
         </>

@@ -1,36 +1,12 @@
 import '../styles/about.css';
-import profilePic from "../assets/images/IMG_1448.jpg";
-import { Link } from "react-router-dom";
-import { Icon } from 'react-materialize';
-import { Carousel } from 'react-materialize';
+import About from '../components/about';
 
 function AboutPage() {
   return (
     <>
       <div className="project-cards">
-            <Carousel
-                carouselId="Carousel-37"
-                className="white-text center"
-                options={{
-                    fullWidth: true,
-                    indicators: true,
-                }}
-            >
-                {projects.map((project) => (
-                    <div className="red">
-                        <h2>
-                            {project.title}
-                        </h2>
-                        <p>
-                            {project.description}
-                        </p>
-                        <Link to={project.link}>Check it out</Link>
-                        <Link to={project.repository}>Repository</Link>
-                        <img src={project.image}/>
-                    </div>
-                ))
-                }
-            </Carousel>
+            <About/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Qr0TU4Rj7k?si=Xz4V5XDvL9N4VAxm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div >
     </>
   );
