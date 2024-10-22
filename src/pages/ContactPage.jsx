@@ -7,7 +7,7 @@ const ContactPage = () => {
             <h1>Contact</h1>
             <div className='contact-card'>
                 <h2>Email:</h2>
-                <a href = "mailto: madeline.taylor.beke@gmail.com">madeline.taylor.beke@gmail.com</a>
+                <a href = "mailto: maddie.beke@outlook.com">maddie.beke@outlook.com</a>
                 <h2>Phone Number:</h2>
                 <a href="tel:727-741-5382">(727)-741-5382</a>
             </div>

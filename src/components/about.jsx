@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { projects } from "../../utils/ProjectData";
+import { story } from "../../utils/AboutData";
 import { Carousel } from "react-materialize";
 
-function Portfolio() {
+function About() {
     return (
         <div className="project-cards">
             <Carousel
@@ -13,17 +13,14 @@ function Portfolio() {
                     indicators: true,
                 }}
             >
-                {projects.map((project) => (
+                {story.map((about) => (
                     <div className="red">
                         <h2>
-                            {project.title}
+                            {about.chapter}
                         </h2>
                         <p>
-                            {project.description}
+                            {about.content}
                         </p>
-                        <Link to={project.link}>Check it out</Link>
-                        <Link to={project.repository}>Repository</Link>
-                        <img src={project.image}/>
                     </div>
                 ))
                 }
@@ -32,4 +29,4 @@ function Portfolio() {
     );
 }
 
-export default Portfolio;
+export default About;

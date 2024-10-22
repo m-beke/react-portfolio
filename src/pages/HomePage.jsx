@@ -10,8 +10,13 @@ function HomePage() {
           <div className='home-img'>
             <img src={profilePic}></img>
           </div>
-          <div className='home-quote'>
-            <p>"Placeholder Quote."</p>
+          <div className='home-quote-display'>
+            <div className='home-quote'>
+              <p>"Success is like reaching an important birthday and finding you're exactly the same."</p>
+            </div>
+            <div className='home-quote-author'>
+              <p>- Audrey Hepburn</p>
+            </div>
           </div>
         </div>
       </div>

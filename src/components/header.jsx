@@ -35,7 +35,7 @@ function Header() {
           <Link to='/Resume'>Resume</Link>
           <Link to='/Contact'>Contact Me</Link>
           <Link to='https://github.com/m-beke'>GitHub</Link>
-          <Link to='https://www.linkedin.com/in/matt-beke-a3679740/'>LinkedIn</Link>
+          <Link to='https://www.linkedin.com/in/madeline-beke-a3679740/'>LinkedIn</Link>
         </Navbar>
       </nav>
     </>);

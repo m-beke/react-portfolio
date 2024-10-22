@@ -12,10 +12,20 @@
     box-shadow: 5px 5px 50px 5px gray;
 }
 
-.home-quote {
+.home-quote-display {
     display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    font-size: 50px;
+    align-items: center; 
+    flex-direction: column;
     color: white;
+    
+}
+
+.home-quote {
+    font-size: 50px;
+    margin: 0px 400px 0px;
+}
+
+.home-quote-author {
+    font-size: 25px;
+    margin: -65px -600px 0px 0px;
 }

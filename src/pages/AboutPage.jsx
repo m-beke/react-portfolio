@@ -1,21 +1,13 @@
 import '../styles/about.css';
-import profilePic from "../assets/images/IMG_1448.jpg";
-import { Link } from "react-router-dom";
-import { Icon } from 'react-materialize';
-import { Pagination } from 'react-materialize';
-import { PaginationButton } from 'react-materialize';
+import About from '../components/about';
 
 function AboutPage() {
   return (
     <>
-      <Pagination
-        activePage={2}
-        items={3}
-        leftBtn={<Icon>chevron_left</Icon>}
-        maxButtons={3}
-        rightBtn={<Icon>chevron_right</Icon>}
-        
-      />
+      <div className="project-cards">
+            <About/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Qr0TU4Rj7k?si=Xz4V5XDvL9N4VAxm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div >
     </>
   );
 }
