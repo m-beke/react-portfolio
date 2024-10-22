@@ -1,40 +1,33 @@
+import { Link } from "react-router-dom";
 import { projects } from "../../utils/ProjectData";
+import { Carousel } from "react-materialize";
 
 function Portfolio() {
     return (
         <div className="project-cards">
-            {projects.map((project) => (
-                <div className="project-card">
-                    <div className="display-bg">
-                        <div className="card-display">
-                            <img
-                                alt="gallery"
-                                className="project-image"
-                                src={project.image}
-                            />
-                            <h1 className="project-title">
-                                {project.title}
-                            </h1>
-
-                            <div className="card-content">
-                                <h2 className="project-subtitle">
-                                    {project.subtitle}
-                                </h2>
-                                <p className="project-description">{project.description}</p>
-                            </div>
-                        </div>
+            <Carousel
+                carouselId="Carousel-37"
+                className="white-text center"
+                options={{
+                    fullWidth: true,
+                    indicators: true,
+                }}
+            >
+                {projects.map((project) => (
+                    <div className="red">
+                        <h2>
+                            {project.title}
+                        </h2>
+                        <p>
+                            {project.description}
+                        </p>
+                        <Link to={project.link}>Check it out</Link>
+                        <Link to={project.repository}>Repository</Link>
+                        <img src={project.image}/>
                     </div>
-                    <div className="project-links">
-                        <div className="deployed-link">
-                            <a href={project.link} className="project-link">CHECK IT OUT</a>
-                        </div>
-                        <div className="project-repo">
-                            <a href={project.repository} className="repo-link">REPOSITORY</a>
-                        </div>
-                    </div>
-                </div>
-            ))
-            }
+                ))
+                }
+            </Carousel>
         </div >
     );
 }
