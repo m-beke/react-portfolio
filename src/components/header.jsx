@@ -8,6 +8,7 @@ import { Navbar } from 'react-materialize';
 import { NavItem } from 'react-materialize';
 import { SideNav } from 'materialize-css';
 import { SideNavItem } from 'materialize-css';
+import { Button } from 'react-materialize';
 import { Icon } from 'react-materialize';
 
 
@@ -16,8 +17,19 @@ function Header() {
     <>
       <nav>
         <Navbar
+          
           alignLinks="right"
-          brand={<Link to='/' className="brand-logo">Madeline Beke</Link>}
+          brand={
+            <Button
+              className='home-btn'
+              node="button"
+              tooltip="Pronounced 'Becky'"
+              tooltipOptions={{
+                position: 'bottom'
+              }}
+            >
+              <Link to='/' className="brand-logo">Madeline Beke</Link>
+            </Button>}
           id="mobile-nav"
           menuIcon={<Icon>menu</Icon>}
           options={{

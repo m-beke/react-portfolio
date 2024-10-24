@@ -1,6 +1,20 @@
 nav {
     background-color: transparent;
     box-shadow: none;
+    
+}
+
+.home-btn {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-wrap: nowrap;
+    margin-top: -0.5%;
+}
+
+.brand-logo {
+    
 }
 
 nav img {
