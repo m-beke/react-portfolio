@@ -1,7 +1,6 @@
 nav {
     background-color: transparent;
     box-shadow: none;
-    
 }
 
 .home-btn {
@@ -11,15 +10,12 @@ nav {
     text-transform: capitalize;
     text-wrap: nowrap;
     margin-top: -0.5%;
-}
-
-.brand-logo {
-    
+    margin-left: 1%;
 }
 
 nav img {
     max-width: 15%;
-    
+    background-color: red;
 }
 
 .sidenav {
@@ -28,4 +24,46 @@ nav img {
 
 .sidenav li a {
     color: white;
+}
+
+.portfolio-link {
+    text-decoration: none;
+    
+    display: inline-block;
+    position: relative;
+  }
+  .portfolio-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .portfolio-link:hover:after { 
+    width: 100%; 
+    left: 0;}
+
+.nav-link{
+    margin-top: 9%;
+    padding: 1%;
+}
+
+.nav-link:hover {
+   background-color: transparent;
+}
+
+.icon-link:hover {
+    background-color: transparent;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .brand-logo{
+        margin-top: -2.2%;
+    }
 }

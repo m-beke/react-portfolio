@@ -9,15 +9,16 @@ import { NavItem } from 'react-materialize';
 import { SideNav } from 'materialize-css';
 import { SideNavItem } from 'materialize-css';
 import { Button } from 'react-materialize';
-import { Icon } from 'react-materialize';
-
+import Icon from '@mdi/react';
+import { mdiGithub } from '@mdi/js';
+import { mdiLinkedin } from '@mdi/js';
+import { mdiMenu } from '@mdi/js';
 
 function Header() {
   return (
     <>
       <nav>
         <Navbar
-          
           alignLinks="right"
           brand={
             <Button
@@ -31,7 +32,7 @@ function Header() {
               <Link to='/' className="brand-logo">Madeline Beke</Link>
             </Button>}
           id="mobile-nav"
-          menuIcon={<Icon>menu</Icon>}
+          menuIcon={<Icon className='nav-link' path={mdiMenu} size={2}></Icon>}
           options={{
             draggable: true,
             edge: 'left',
@@ -44,12 +45,37 @@ function Header() {
             preventScrolling: true,
           }}
         >
-          <Link to='/About'>About</Link>
-          <Link to='/Portfolio'>Projects</Link>
-          <Link to='/Resume'>Resume</Link>
-          <Link to='/Contact'>Contact Me</Link>
-          <Link to='https://github.com/m-beke'>GitHub</Link>
-          <Link to='https://www.linkedin.com/in/madeline-beke-a3679740/'>LinkedIn</Link>
+          <Link to='/About' className='portfolio-link'>About</Link>
+          <Link to='/Portfolio'className='portfolio-link'>Projects</Link>
+          <Link to='/Resume' className='portfolio-link' >Resume</Link>
+          <Link to='/Contact' className='portfolio-link'>Contact Me</Link>
+          <NavItem className='nav-link'>
+            <Link to='https://github.com/m-beke'
+            className='icon-link'
+            >
+              <Icon
+                className='icon'
+                path={mdiGithub}
+                title="Github"
+                size={2}
+                horizontal
+                vertical
+                rotate={180}
+                color="white"
+              />
+            </Link>
+          </NavItem>
+          <NavItem className='nav-link'>
+            <Link to='https://www.linkedin.com/in/madeline-beke-a3679740/' className="icon-link">
+              <Icon
+                className='icon'
+                path={mdiLinkedin}
+                title="Linkedin"
+                size={2}
+                color="White"
+              />
+            </Link>
+          </NavItem>
         </Navbar>
       </nav>
     </>);
