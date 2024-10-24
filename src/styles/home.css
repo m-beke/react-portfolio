@@ -1,31 +1,63 @@
-.home-img {
+.home-wrapper{
+    display: block;
+    margin:2%;
+}
+
+.home-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 4%;
+   
 }
 
-.home-img img{
-    max-width: 20%;
-    border-radius: 50%;
-    padding: 5px;
-    background-color: white;
-    box-shadow: 5px 5px 50px 5px gray;
-}
-
-.home-quote-display {
+.home-card {
     display: flex;
-    align-items: center; 
+    /* background-color: red; */
+    max-width: 46%;
+    margin: 1%;
+    margin-right: 3%;
+}
+
+.home-content {
+    display: flex;
     flex-direction: column;
-    color: white;
+}
+
+.home-card img {
+    max-width: 80%;
     
 }
 
-.home-quote {
-    font-size: 50px;
-    margin: 0px 400px 0px;
+.home-img-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.home-quote-author {
-    font-size: 25px;
-    margin: -65px -600px 0px 0px;
+.quote {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+    text-align: end;
+}
+
+.quote-author {
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    align-self: end;
+    margin-top: -4%;
+    
+}
+
+.home-img-card img {
+    max-width: 60%;
+    border-radius: 50%;
+    align-self: end;
+}
+
+.home-signature-card {
+    color: white;
+
 }

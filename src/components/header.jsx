@@ -6,6 +6,8 @@ import gitIcon from '../assets/images/github-mark-white.png';
 import linkedIcon from '../assets/images/In-White-128@2x.png';
 import { Navbar } from 'react-materialize';
 import { NavItem } from 'react-materialize';
+import { SideNav } from 'materialize-css';
+import { SideNavItem } from 'materialize-css';
 import { Icon } from 'react-materialize';
 
 
@@ -27,7 +29,7 @@ function Header() {
             onOpenEnd: null,
             onOpenStart: null,
             outDuration: 200,
-            preventScrolling: true
+            preventScrolling: true,
           }}
         >
           <Link to='/About'>About</Link>
