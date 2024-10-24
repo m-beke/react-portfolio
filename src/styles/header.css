@@ -11,6 +11,7 @@ nav {
     text-wrap: nowrap;
     margin-top: -0.5%;
     margin-left: 1%;
+    text-shadow: 1px 1px 4px black;
 }
 
 nav img {
