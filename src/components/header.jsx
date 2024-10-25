@@ -2,8 +2,6 @@ import '../styles/header.css';
 import '../styles/materialize.min.css';
 import '../../utils/materialize.min.js';
 import { Link } from 'react-router-dom';
-import gitIcon from '../assets/images/github-mark-white.png';
-import linkedIcon from '../assets/images/In-White-128@2x.png';
 import { Navbar } from 'react-materialize';
 import { NavItem } from 'react-materialize';
 import { SideNav } from 'materialize-css';
@@ -13,6 +11,7 @@ import Icon from '@mdi/react';
 import { mdiGithub } from '@mdi/js';
 import { mdiLinkedin } from '@mdi/js';
 import { mdiMenu } from '@mdi/js';
+import profilePic from "../assets/images/IMG_1448.jpg";
 
 function Header() {
   return (
@@ -32,7 +31,7 @@ function Header() {
               <Link to='/' className="brand-logo">Madeline Beke</Link>
             </Button>}
           id="mobile-nav"
-          menuIcon={<Icon className='nav-link' path={mdiMenu} size={2}></Icon>}
+          menuIcon={<Icon className='menu-icon' path={mdiMenu} size={1.5}></Icon>}
           options={{
             draggable: true,
             edge: 'left',
@@ -44,6 +43,43 @@ function Header() {
             outDuration: 200,
             preventScrolling: true,
           }}
+          sidenav={
+            <>
+              <div className='sidenav-card'>
+                <img src={profilePic} class='sidenav-pfp'></img>
+                <div className='sidenav-title'>
+                  <Link to='/' className="sidenav-logo">Madeline Beke</Link>
+                  <div className='sidenav-links'>
+                  <Link to='https://github.com/m-beke'
+                    className='sidenav-icon'
+                  >
+                    <Icon
+                      className='sidenav-git'
+                      path={mdiGithub}
+                      title="Github"
+                      size={2}
+                      horizontal
+                      vertical
+                      rotate={180}
+                      color="white"
+                    />
+                  </Link>
+                  <Link to='https://www.linkedin.com/in/madeline-beke-a3679740/' className="sidenav-icon">
+                    <Icon
+                      className='sidenav-linked'
+                      path={mdiLinkedin}
+                      title="Linkedin"
+                      size={2}
+                      color="White"
+                    />
+                  </Link></div>
+                </div>
+              </div>
+              <li class="sidenav-close"><Link to='/About'>About</Link></li>
+              <li class="sidenav-close"><Link to='/Projects'>Projects</Link></li>
+              <li class="sidenav-close"><Link to='/Resume'>Resume</Link></li>
+              <li class="sidenav-close"><Link to='/Contact'>Contact Me</Link></li></>
+          }
         >
           <Link to='/About' className='portfolio-link'>About</Link>
           <Link to='/Portfolio' className='portfolio-link'>Projects</Link>
@@ -54,7 +90,7 @@ function Header() {
               className='icon-link'
             >
               <Icon
-                className='icon'
+                className='git-icon'
                 path={mdiGithub}
                 title="Github"
                 size={2}
@@ -68,7 +104,7 @@ function Header() {
           <NavItem className='nav-link'>
             <Link to='https://www.linkedin.com/in/madeline-beke-a3679740/' className="icon-link">
               <Icon
-                className='icon'
+                className='linked-icon'
                 path={mdiLinkedin}
                 title="Linkedin"
                 size={2}
@@ -76,6 +112,7 @@ function Header() {
               />
             </Link>
           </NavItem>
+
         </Navbar>
       </nav>
     </>);

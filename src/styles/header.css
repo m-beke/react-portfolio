@@ -16,16 +16,55 @@ nav {
 
 nav img {
     max-width: 15%;
-    background-color: red;
 }
 
 .sidenav {
-    background-color: black;
+    background: linear-gradient(-45deg, #5473D1, #191970);
 }
 
 .sidenav li a {
     color: white;
 }
+
+.sidenav-card {
+    text-align: center;
+    border-bottom: 1px solid white;
+    
+}
+
+.sidenav-pfp {
+    background-color: white;
+    padding:1%;
+    max-width: 50%;
+    border-radius: 50%;
+    margin-top: 5%;
+    box-shadow: 1px 1px 4px 1px white; 
+}
+
+.sidenav-title {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sidenav-title a:hover {
+    background-color: transparent;
+}
+
+.sidenav-logo {
+    text-align: start;
+}
+
+.sidenav-links {
+    display: flex;
+    text-align: end;
+}
+
+.sidenav-close a:hover {
+    background-color: transparent;
+}
+
+
 
 .portfolio-link {
     text-decoration: none;
@@ -52,8 +91,13 @@ nav img {
     left: 0;
 }
 
+.menu-icon {
+    margin-top: 25%;
+    padding: 1%; 
+}
+
 .nav-link {
-    margin-top: 9%;
+    margin-top: 10%;
     padding: 1%;
 }
 
@@ -63,6 +107,17 @@ nav img {
 
 .icon-link:hover {
     background-color: transparent;
+}
+
+.git-icon:hover {
+    box-shadow: 0px 0px 5px 5px white;
+    border-radius: 80%;
+
+}
+
+.linked-icon:hover {
+    box-shadow: 0px 0px 5px 5px white;
+    border-radius: 10%;
 }
 
 
