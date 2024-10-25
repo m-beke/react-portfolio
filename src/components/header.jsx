@@ -1,6 +1,4 @@
 import '../styles/header.css';
-import '../styles/materialize.min.css';
-import '../../utils/materialize.min.js';
 import { Link } from 'react-router-dom';
 import { Navbar } from 'react-materialize';
 import { NavItem } from 'react-materialize';
