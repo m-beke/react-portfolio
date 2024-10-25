@@ -76,7 +76,7 @@ function Header() {
                 </div>
               </div>
               <li class="sidenav-close"><Link to='/About'>About</Link></li>
-              <li class="sidenav-close"><Link to='/Projects'>Projects</Link></li>
+              <li class="sidenav-close"><Link to='/Portfolio'>Projects</Link></li>
               <li class="sidenav-close"><Link to='/Resume'>Resume</Link></li>
               <li class="sidenav-close"><Link to='/Contact'>Contact Me</Link></li></>
           }
