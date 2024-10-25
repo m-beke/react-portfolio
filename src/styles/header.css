@@ -29,11 +29,12 @@ nav img {
 
 .portfolio-link {
     text-decoration: none;
-    
+
     display: inline-block;
     position: relative;
-  }
-  .portfolio-link:after {    
+}
+
+.portfolio-link:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -44,18 +45,20 @@ nav img {
     background: #fff;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-  }
-  .portfolio-link:hover:after { 
-    width: 100%; 
-    left: 0;}
+}
 
-.nav-link{
+.portfolio-link:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.nav-link {
     margin-top: 9%;
     padding: 1%;
 }
 
 .nav-link:hover {
-   background-color: transparent;
+    background-color: transparent;
 }
 
 .icon-link:hover {
@@ -64,7 +67,7 @@ nav img {
 
 
 @media only screen and (max-width: 600px) {
-    .brand-logo{
+    .brand-logo {
         margin-top: -2.2%;
     }
 }
