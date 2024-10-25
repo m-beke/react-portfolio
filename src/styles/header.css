@@ -19,17 +19,22 @@ nav img {
 }
 
 .sidenav {
-    background: linear-gradient(-45deg, #5473D1, #191970);
+    background: #EBEBEB
 }
 
 .sidenav li a {
-    color: white;
+    margin-top: 2%;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
 }
 
 .sidenav-card {
     text-align: center;
     border-bottom: 1px solid white;
-    
+    background: linear-gradient(-45deg, #5473D1, #191970);
+    box-shadow: 1px 1px 5px 1px black;
 }
 
 .sidenav-pfp {
@@ -53,6 +58,7 @@ nav img {
 
 .sidenav-logo {
     text-align: start;
+    font-size: 16px;
 }
 
 .sidenav-links {
