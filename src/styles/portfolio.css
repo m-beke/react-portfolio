@@ -1,0 +1,50 @@
+.portfolio-page {
+    text-align: center;
+    color: white;
+}
+
+.project-display {
+    margin: 2%;
+}
+
+.project-div {
+    display: flex;
+}
+
+.project-row {
+    display: flex;
+    text-align: center;
+}
+
+.project-col {
+    display: flex;   
+}
+
+.project-card {
+display: block;
+background-color: rgba(0, 0, 0, 0.7);
+border-radius: 5%;
+padding:4%;
+color: white;
+}
+
+.card-title {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top-right-radius: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+    .project-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+ }
+
+.project-card a {
+    border-radius: 15%;
+}
+
+.project-link {
+    color: white;
+}
+
