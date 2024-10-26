@@ -11,6 +11,7 @@
     display: flex;
 }
 
+
 .project-row {
     display: flex;
     text-align: center;
@@ -18,6 +19,7 @@
 
 .project-col {
     display: flex;   
+    
 }
 
 .project-card {
@@ -28,9 +30,23 @@ padding:4%;
 color: white;
 }
 
-.card-title {
-    background-color: rgba(0, 0, 0, 0.7);
-    border-top-right-radius: 25%;
+.project-card img {
+    padding: 1%;
+}
+
+.project-card:hover {
+    box-shadow: 1px 1px 5px 5px white;
+}
+
+.header {
+    margin-top:-1%;
+}
+
+
+
+.project-card a {
+    color: white;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -44,7 +60,4 @@ color: white;
     border-radius: 15%;
 }
 
-.project-link {
-    color: white;
-}
 

@@ -6,25 +6,34 @@ function Portfolio() {
     return (
         <div className="project-div">
             {projects.map((project) => (
-                <Row className="project-row">
+                <Link to={project.link} className="project-card-link">
+                    <Row className="project-row">
                     <Col className="project-col"
                         m={12}
                         s={12}
                     >
                         <Card className="project-card"
                             actions={[
-                                <Link to={project.link} className="project-link">Check it out</Link>,
-                                <Link to={project.repository} className="project-link">Repository</Link>
+                                ,
+                                <Link to={project.repository} >Repository</Link>
                             ]}
-                            header={<CardTitle className="card-title"image={project.image}>{project.title}</CardTitle>}
+                            header={
+                                <>
+                                    <h2 className="header">{project.title}</h2>
+                                    <CardTitle
+                                        image={project.image}
+                                    >
+                                    </CardTitle>
+                                </>
+                            }
                         >
                             {project.description}
                         </Card>
                     </Col>
-                </Row>
+                </Row></Link>
             ))
             }
-        </div>
+        </div >
     );
 }
 
