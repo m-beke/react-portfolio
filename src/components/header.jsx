@@ -2,8 +2,6 @@ import '../styles/header.css';
 import { Link } from 'react-router-dom';
 import { Navbar } from 'react-materialize';
 import { NavItem } from 'react-materialize';
-import { SideNav } from 'materialize-css';
-import { SideNavItem } from 'materialize-css';
 import { Button } from 'react-materialize';
 import Icon from '@mdi/react';
 import { mdiGithub } from '@mdi/js';
@@ -21,10 +19,12 @@ function Header() {
             <Button
               className='home-btn'
               node="button"
-              tooltip="Pronounced 'BECKY' like the name!"
+              tooltip="Pronounced 'Becky' like the name!"
               tooltipOptions={{
-                position: 'bottom'
+                position: 'bottom',
+                margin: 10
               }}
+              flat="true"
             >
               <Link to='/' className="brand-logo">Madeline Beke</Link>
             </Button>}

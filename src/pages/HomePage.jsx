@@ -26,7 +26,7 @@ function HomePage() {
               <div className='home-signature-card'>
                 <img src={signature} />
                 <h1>Full-Stack Web Developer</h1>
-                <h2>Coding with elegance and simplicity.</h2>
+                <h2>Coding with elegance and simplicity in mind.</h2>
               </div>
             </div>
           </div>
