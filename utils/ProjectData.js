@@ -28,4 +28,31 @@ export const projects = [
       link: "https://shawki45.github.io/Flavor-Trail/",
       repository: "https://github.com/Shawki45/Flavor-Trail"
     },
+    {
+      title: "Weather Dashboard",
+      subtitle: "HTML5, CSS3, Javascript, JSON, JQuery",
+      description:
+        "An app for looking up the weather by city.",
+      image: [assets.weatherDashPic],
+      link: "https://m-beke.github.io/weather-dashboard/",
+      repository: "https://github.com/m-beke/weather-dashboard"
+    },
+    {
+      title: "Code Quiz",
+      subtitle: "HTML5, CSS3, Javascript",
+      description:
+        "A timed quiz on coding knowledge.",
+      image: [assets.codeQuizPic],
+      link: "https://m-beke.github.io/code-quiz/",
+      repository: "https://github.com/m-beke/code-quiz"
+    },
+    {
+      title: "Password Generator",
+      subtitle: "HTML5, CSS3, Javascript",
+      description:
+        "A tool for randomly generating a unique password.",
+      image: [assets.passwordGenPic],
+      link: "https://m-beke.github.io/password-generator/",
+      repository: "https://github.com/m-beke/password-generator"
+    },
   ];
