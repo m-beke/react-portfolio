@@ -13,27 +13,19 @@
     margin: 2%;
 }
 
-.project-div {
-    display: flex;
-}
-
-
 .project-row {
-    display: flex;
-    text-align: center;
-}
-
-.project-col {
-    display: flex;   
-    
+    width: 30%;
+    float: left;
+    margin-left: 2.5%
 }
 
 .project-card {
-display: block;
 background-color: rgba(0, 0, 0, 0.7);
 border-radius: 5%;
 padding:4%;
 color: white;
+
+
 }
 
 .project-card img {
@@ -48,17 +40,17 @@ color: white;
     margin-top:-1%;
 }
 
-
-
 .project-card a {
     color: white;
-    
 }
 
 @media only screen and (max-width: 600px) {
-    .project-div {
+    .project-row {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        float: none;
+        margin: 0%;
     }
  }
 
