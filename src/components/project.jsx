@@ -8,11 +8,8 @@ function Portfolio() {
             {projects.map((project) => (
                 <Link to={project.link} className="project-card-link">
                     <Row className="project-row">
-                        <Col className="project-col"
-                           m={12}
-                        s={12}
-                        >
-                            <Card className="project-card"
+                        <Col className="project-col">
+                            <Card className="project-card large"
                                 actions={[
                                     ,
                                     <Link to={project.repository} >Repository</Link>
@@ -27,7 +24,7 @@ function Portfolio() {
                                     </>
                                 }
                             >
-                                {project.description}
+                                <p>{project.description}</p>
                             </Card>
                         </Col>
                     </Row></Link>

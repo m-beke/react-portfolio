@@ -3,7 +3,6 @@
     color: white;
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
     font-weight: 600;
     text-shadow: 1px 1px 4px black;
@@ -16,7 +15,7 @@
 .project-row {
     width: 30%;
     float: left;
-    margin-left: 2.5%
+    margin-left: 2.5%;   
 }
 
 .project-card {
@@ -24,8 +23,6 @@ background-color: rgba(0, 0, 0, 0.7);
 border-radius: 5%;
 padding:4%;
 color: white;
-
-
 }
 
 .project-card img {
@@ -36,14 +33,29 @@ color: white;
     box-shadow: 1px 1px 5px 5px white;
 }
 
+.project-card p {
+    font-size: 18px;
+}
+
 .header {
     margin-top:-1%;
+    font-size: 40px;
 }
 
 .project-card a {
     color: white;
 }
 
+@media only screen and (max-width: 900px) {
+    .project-row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        float: none;
+        margin: 0%;
+        margin-left:12%
+    }
+ }
 @media only screen and (max-width: 600px) {
     .project-row {
         display: flex;
