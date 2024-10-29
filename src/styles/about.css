@@ -1,9 +1,16 @@
 
-.about-card {
-    background-color: rgba(0, 0, 0, 0.5);
-    
+.about-heading-main {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 9%;
+    margin-left:30%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
-
 .about-heading {
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
@@ -19,12 +26,24 @@
 .parallax-container{
    width: 100%;
    box-shadow: 1px 1px 5px 1px black;
-}
-
-.about-p {
+   position: sticky;
    
 }
 
-.youtube-vid {
-   
+@media only screen and (max-width: 600px) {
+    .parallax-container {
+        width: fill-content;
+        height: fit-content;
+    }
+
+    .about-heading-main {
+        margin: 0%;
+        margin-top: 19%;
+        margin-bottom: 19%;
+    }
+    .about-heading {
+        margin: 0%;
+        margin-top: 19%;
+        margin-bottom: 19%;
+    }
 }

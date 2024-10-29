@@ -82,7 +82,7 @@ function Header() {
           <Link to='/About' className='portfolio-link'>About</Link>
           <Link to='/Portfolio' className='portfolio-link'>Projects</Link>
           <Link to='/Resume' className='portfolio-link' >Resume</Link>
-          <Link to='/Contact' className='portfolio-link'>Contact Me</Link>
+          <Link to='/Contact' className='portfolio-link'>Contact</Link>
           <NavItem className='nav-link'>
             <Link to='https://github.com/m-beke'
               className='icon-link'
