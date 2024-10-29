@@ -1,8 +1,30 @@
+
 .about-card {
     background-color: rgba(0, 0, 0, 0.5);
     
 }
 
+.about-heading {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 9%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.parallax-container{
+   width: 100%;
+   box-shadow: 1px 1px 5px 1px black;
+}
+
 .about-p {
-    margin: 5%;
+   
+}
+
+.youtube-vid {
+   
 }
