@@ -37,6 +37,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    
 }
 
 .home-img-card img {
@@ -97,9 +98,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .home-wrapper {
+        margin: 0%;
+    }
+    
     .home-card {
         display: flex;
         max-width: 75%;
+        margin: 0%; 
     }
 
     .quote {
@@ -113,6 +119,10 @@
         font-size: 15px;
     }
 
+    .home-img-card {
+       text-align: center;
+    }
+
     .home-img-card img {
         align-self: center;
     }
@@ -122,9 +132,8 @@
     }
 
     .home-signature-card {
-        text-align: start;
-        margin: -2%;
-        margin-right: -6%;
+        text-align: center;
+        margin: 0%;
     }
 
     .home-signature-card h1{
@@ -134,8 +143,11 @@
         font-size: 25px;
     }
     .dev-icons {
-        margin-top: 10%;
-        font-size: 35px;
-        
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 8%;
+        font-size: 75px;
+        line-height: 3em;
     }
 }
