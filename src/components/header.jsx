@@ -31,9 +31,7 @@ function Header() {
               tooltip="Pronounced 'Becky'"
               tooltipOptions={{
                 position: 'bottom',
-                margin: 10
               }}
-              flat="true"
             >
               <Link to='/' className="brand-logo">Madeline Beke</Link>
             </Button>}

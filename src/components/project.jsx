@@ -12,8 +12,7 @@ function Portfolio() {
                         <Col className="project-col">
                             <Card className="project-card large"
                                 actions={[
-                                    <><Link to={project.repository} className="project-link">Repository</Link>
-                                    </>
+                                    <a href={project.repository} className="white-text project-link">Repository</a>
                                 ]}
                                 header={
                                     <>
