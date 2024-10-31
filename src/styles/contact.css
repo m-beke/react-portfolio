@@ -1,0 +1,32 @@
+.contact-wrapper {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    color: white;
+}
+
+.contact-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 2%;
+    border-radius: 10%;
+    max-width: 75%;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.info-card h3 {
+    font-size: 20px;
+}

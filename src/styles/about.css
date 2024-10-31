@@ -2,6 +2,7 @@
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: white;
 }
 
 .about-heading-main {
@@ -23,11 +24,11 @@
 }
 
 .section {
-    background-color: #FFB7C5;
+    background-color: #021627;
 }
 
 .p-wrapper {
-   border-left: 2px solid black; 
+   border-left: 5px solid #FFB7C5; 
 }
 
 .about-p {
