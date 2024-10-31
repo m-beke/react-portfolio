@@ -1,6 +1,8 @@
 .home-wrapper{
     display: block;
     margin:2%;
+    margin-top: 3%;
+    margin-right: 5%;
     font-family: "Bodoni Moda", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -99,6 +101,7 @@
     max-width: 60%;
     border-radius: 50%;
     align-self: end;
+    margin-right: 5%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -109,7 +112,15 @@
 
 .home-signature-card {
     color: white;
-
+    margin-top: 2%;
+}
+.home-signature-card h1 {
+    color: white;
+    margin-top: 5%;
+}
+.home-signature-card h2 {
+    color: white;
+    margin-top: 8%;
 }
 
 @media only screen and (max-width: 600px) {

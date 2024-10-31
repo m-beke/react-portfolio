@@ -1,7 +1,6 @@
 import '../styles/home.css';
 import profilePic from "../assets/images/IMG_1448.jpg";
 import signature from "../assets/images/MadelineBeke.png";
-import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -44,7 +43,6 @@ function HomePage() {
         </div>
       </div>
     </>
-
   );
 }
 
