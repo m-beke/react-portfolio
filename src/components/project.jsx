@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { projects } from "../../utils/ProjectData";
-import { Row, Col, Card, Icon, CardTitle } from "react-materialize";
+import { Row, Col, Card, Button, CardTitle } from "react-materialize";
 
 
 function Portfolio() {
@@ -12,7 +12,11 @@ function Portfolio() {
                         <Col className="project-col">
                             <Card className="project-card large"
                                 actions={[
-                                    <a href={project.repository} className="white-text project-link">Repository</a>
+                                    <Link className="white-text" to={project.repository}>
+                                        <Button className="project-link">
+                                            Repository
+                                        </Button>
+                                    </Link>
                                 ]}
                                 header={
                                     <>

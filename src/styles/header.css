@@ -34,14 +34,14 @@ nav img {
 }
 
 .sidenav {
-    background: #EBEBEB
+    background: #EDEAE0
 }
 
 .sidenav li a {
     margin-top: 2%;
     font-size: 16px;
     font-weight: bold;
-    color: black;
+    color: #021627;
     text-shadow: none;
 }
 
