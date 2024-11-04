@@ -110,13 +110,13 @@
 
     .quote {
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .quote-author {
-        margin-top: -10%;
-        margin-right: 5%;
-        font-size: 15px;
+        margin-top: -7%;
+        margin-right: 15%;
+        font-size: 12px;
     }
 
     .home-img-card {
@@ -141,13 +141,17 @@
     }
     .home-signature-card h2{
         font-size: 25px;
+        text-align: start;
     }
     .dev-icons {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        padding: 8%;
+        column-gap: 5px;
+        row-gap: 25px;
+        padding-top: 8%;
         font-size: 75px;
-        line-height: 3em;
+        letter-spacing: 10px;
+        margin-bottom: 5%;
     }
 }

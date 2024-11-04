@@ -102,6 +102,7 @@
         margin: 0%;
     }
 
+
     .project-card:hover {
         box-shadow: none;
         transform: scale(.9);
