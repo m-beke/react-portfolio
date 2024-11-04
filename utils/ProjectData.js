@@ -3,7 +3,7 @@ import {assets} from '../utils/Assets.js';
 export const projects = [
     {
       title: "Chronos",
-      tools: "MERN Stack",
+      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon, assets.mongoIcon, assets.expressIcon, assets.reactIcon, assets.nodeIcon, assets.materializeIcon],
       description:
         "A simple calendar app designed for creating, planning, and tracking events.",
       picture: [assets.chronosPic],
@@ -12,7 +12,7 @@ export const projects = [
     },
     {
       title: "StreamScape",
-      tools: "HTML5, CSS3, Javascript, MySQL, Express, Handlebars, Materialize",
+      tools:[assets.htmlIcon, assets.cssIcon, assets.jsIcon, assets.handlebarsIcon, assets.sequelIcon, assets.sqlIcon, assets.nodeIcon, assets.materializeIcon],
       description:
         "A search tool that you can use to check if your favorite movie/show is streaming.",
       picture: [assets.streamScapePic],
@@ -21,7 +21,7 @@ export const projects = [
     },
     {
       title: "Flavor Trail",
-      tools: "HTML5, CSS3, Javascript, JSON, JQuery, Materialize",
+      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon, assets.materializeIcon],
       description:
         "A search tool for finding the best rated restaurants in the area you search for.",
       picture: [assets.flavorTrailPic],
@@ -30,7 +30,7 @@ export const projects = [
     },
     {
       title: "Weather Dashboard",
-      tools: "HTML5, CSS3, Javascript, JSON, JQuery",
+      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon],
       description:
         "An app for looking up the weather by city.",
       picture: [assets.weatherDashPic],
@@ -39,7 +39,7 @@ export const projects = [
     },
     {
       title: "Code Quiz",
-      tools: "HTML5, CSS3, Javascript",
+      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon],
       description:
         "A timed quiz on coding knowledge.",
       picture: [assets.codeQuizPic],
@@ -48,7 +48,7 @@ export const projects = [
     },
     {
       title: "Password Generator",
-      tools: "HTML5, CSS3, Javascript",
+      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon],
       description:
         "A tool for randomly generating a unique password.",
       picture: [assets.passwordGenPic],

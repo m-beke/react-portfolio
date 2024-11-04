@@ -22,6 +22,7 @@ function Portfolio() {
                                     <>
                                         <h2 className="header">{project.title}</h2>
                                         <CardTitle
+                                            className="project-picture"
                                             image={project.picture}
                                         >
                                         </CardTitle>
@@ -29,6 +30,16 @@ function Portfolio() {
                                 }
                             >
                                 <p>{project.description}</p>
+                                {project.tools.map((tool) => (
+                                    <img
+                                        className="project-tool"
+                                        src={tool}
+                                        alt={`Icon for ${project.title}`}
+                                        style={{
+                                            width: '30px', height: '35px', margin: '5px'
+                                        }}
+                                    />
+                                ))}
                             </Card>
                         </Col>
                     </Row>

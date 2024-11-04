@@ -16,6 +16,13 @@ import handlebarsIcon from "../src/assets/images/handlebars.svg";
 import reactIcon from "../src/assets/images/react.svg";
 import mongoIcon from "../src/assets/images/mongodb.svg";
 import nodeIcon from "../src/assets/images/nodejs.svg";
+import expressIcon from "../src/assets/images/Express.svg";
+import sequelIcon from "../src/assets/images/sequelize.svg";
+import sqlIcon from "../src/assets/images/mysql.svg";
+import materializeIcon from "../src/assets/images/materializecss.svg"
 
-export const assets = {aboutHeader, aboutFilmHeader, aboutMusicHeader, aboutCodeHeader, chronosPic, streamScapePic, flavorTrailPic, weatherDashPic, codeQuizPic, passwordGenPic, htmlIcon, cssIcon, jsIcon, jQueryIcon, handlebarsIcon, reactIcon, mongoIcon, nodeIcon};
+
+export const flavorTools = {htmlIcon, cssIcon, jsIcon};
+
+export const assets = {aboutHeader, aboutFilmHeader, aboutMusicHeader, aboutCodeHeader, chronosPic, streamScapePic, flavorTrailPic, weatherDashPic, codeQuizPic, passwordGenPic, htmlIcon, cssIcon, jsIcon, jQueryIcon, handlebarsIcon, reactIcon, mongoIcon, nodeIcon, expressIcon, sequelIcon, sqlIcon, materializeIcon};
 

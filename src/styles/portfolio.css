@@ -19,17 +19,20 @@
 }
 
 .project-card {
-    background: linear-gradient(#021627, #021627) padding-box, linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%) border-box; 
+    background: linear-gradient(#021627, #021627) padding-box, linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%) border-box;
     border-radius: 5%;
     border: 4px solid transparent;
-    padding: 4%;
+    padding: 6%;
     color: #EDEAE0;
     transition: transform .2s;
 }
 
-.project-card img {
+.project-picture {
     padding: 1%;
-
+    background: linear-gradient(#021627, #021627) padding-box, linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%) border-box;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-top: -2%;
 }
 
 .project-card:hover {
@@ -46,24 +49,37 @@
     font-size: 40px;
 }
 
+.card-content{
+    margin-top: -5%;
+}
+
+.project-tool{
+   
+    border: none;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    margin: 0;
+    
+}
+
 .project-link {
     font-family: "Bodoni Moda", serif;
     text-transform: capitalize;
     color: #000;
-  background: linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%);
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-    
-  
+    background: linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .project-link:hover {
     transform: translateY(-2px);
     color: white;
-    
+
 }
 
 @media only screen and (max-width: 900px) {
