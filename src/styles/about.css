@@ -10,10 +10,11 @@
     font-size: 100px;
     text-align: center;
     margin-top: 9%;
-    margin-left:30%;
+    margin-left: 30%;
     color: #EDEAE0;
     text-shadow: 1px 1px 1px black;
 }
+
 .about-heading {
     font-weight: 800;
     font-size: 100px;
@@ -28,7 +29,13 @@
 }
 
 .p-wrapper {
-   border-left: 5px solid #FFB7C5; 
+    border-left: 5px solid #FFB7C5;
+}
+
+.secondary-p-wrapper {
+    border-right: 5px solid #FFB7C5;
+    text-align: end;
+    margin-top: 5%;
 }
 
 .about-p {
@@ -40,11 +47,51 @@
     padding-left: 3%;
 }
 
-.parallax-container{
-   width: 100%;
-   box-shadow: 1px 1px 5px 1px black;
-   position: sticky;
-   
+.about-p-end {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: 400;
+    padding-right: 3%;
+}
+
+.parallax-container {
+    width: 100%;
+    box-shadow: 1px 1px 5px 1px black;
+    position: sticky;
+
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about-portfolio-link {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    background: linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 10px;
+    max-width: 200px;
+    margin-top: 3%;
+}
+
+.about-portfolio-link:hover {
+    transform: translateY(-2px);
+    color: white;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -58,6 +105,7 @@
         margin-top: 19%;
         margin-bottom: 19%;
     }
+
     .about-heading {
         margin: 0%;
         margin-top: 19%;
@@ -65,6 +113,10 @@
     }
 
     .about-p {
+        font-size: 18px;
+    }
+    
+    .about-p-end {
         font-size: 18px;
     }
 }

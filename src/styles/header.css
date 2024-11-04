@@ -6,6 +6,7 @@ nav {
     font-style: normal;
     font-weight: 600;
     text-shadow: 1px 1px 4px black;
+    padding-top: 1px;
     padding-right: .5%;
     margin-bottom: .5%;
 }
@@ -16,9 +17,11 @@ nav {
     text-transform: capitalize;
     text-wrap: nowrap;
     margin-left: 1%;
+    margin-top: -1px;
     text-shadow: 1px 1px 4px black;
     transition: transform .2s ease-in-out;
     transition: text-shadow .5s;
+    padding: 50px
 }
 
 .home-btn:hover {
