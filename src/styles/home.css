@@ -84,13 +84,87 @@
     margin-top: 2%;
 }
 
-.home-signature-card h1 {
-    margin-top: 5%;
-}
+@keyframes smooth-appear {
+    to{
+      bottom: 20px;
+      opacity:1;
+    }
+  }
 
-.home-signature-card h2 {
-    margin-top: 7%;
+.home-signature-card img {
+    opacity:0;
+  border-radius: 10px;
+  animation: smooth-appear 1.5s ease forwards;
+  animation-name: enter;
 }
+@keyframes enter {
+    0% {
+      opacity: 0;
+      transform: translateY(-10%);
+    }
+    100% {
+      opacity: 1;  
+    }
+  }
+
+
+
+.home-signature-card h1 {
+    opacity: 0;
+    margin-top: 4%;
+    transition: transform 2s;
+    animation: linear;
+    animation-name: run;
+    animation-duration: .75s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes run {
+    0% {
+      opacity: 0;
+      transform: translateX(10%);
+    }
+    100% {
+      opacity: 1;  
+    }
+  }
+
+.home-signature-card  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-signature-card h2 {
+    opacity: 0;
+    width: 34.2ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 2%;
+  }
+  
+  @keyframes typing {
+    from {
+       opacity: 1; 
+      width: 0
+    }
+    to {
+        opacity: 1;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
 
 @media only screen and (max-width: 600px) {
     .home-wrapper {
