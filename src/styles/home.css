@@ -58,22 +58,11 @@
     animation-delay: 8s;
 }
 
-@keyframes enter-bottom {
-    0% {
-        opacity: 0;
-        transform: translateY(10%);
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 .quote-author {
     opacity: 0;
     transition: transform 2s;
     animation: linear;
-    animation-name: run;
+    animation-name: enter-right;
     animation-duration: .75s;
     animation-delay: 9s;
     animation-fill-mode: forwards;
@@ -81,19 +70,11 @@
 
 .divider {
     transform: scaleX(0);
-  transform-origin: left;
-  animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
-  animation-delay: 5s;
+    transform-origin: left;
+    animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
+    animation-delay: 5s;
 }
 
-@keyframes grow-left {
-    from {
-      transform: scaleX(0);
-    }
-    to {
-      transform: scaleX(1);
-    }
-  }
 
 .dev-icons {
     display: flex;
@@ -101,40 +82,47 @@
     resize: both;
     font-size: 50px;
     margin-right: 5%;
-    padding-top: 2%; 
+    padding-top: 2%;
 }
 
 .dev-icon {
     opacity: 0;
     animation: smooth-appear 2s ease forwards;
     animation-delay: 6s;
-    animation-name: enter;
+    animation-name: enter-top;
 }
 
 .dev-icon:nth-child(2) {
     animation-delay: 6.1s;
-  }
+}
+
 .dev-icon:nth-child(3) {
     animation-delay: 6.2s;
-  }
+}
+
 .dev-icon:nth-child(4) {
     animation-delay: 6.3s;
-  }
+}
+
 .dev-icon:nth-child(5) {
     animation-delay: 6.4s;
-  }
+}
+
 .dev-icon:nth-child(6) {
     animation-delay: 6.5s;
-  }
+}
+
 .dev-icon:nth-child(7) {
     animation-delay: 6.6s;
-  }
+}
+
 .dev-icon:nth-child(8) {
     animation-delay: 6.7s;
-  }
+}
+
 .dev-icon:nth-child(9) {
     animation-delay: 6.8s;
-  }
+}
 
 .quote-author {
     font-style: normal;
@@ -150,29 +138,11 @@
     margin-right: 5%;
     opacity: 0;
     animation: smooth-appear 1.5s ease forwards;
-    animation-name: enter;
-}
-
-@keyframes enter {
-    0% {
-        opacity: 0;
-        transform: translateY(-10%);
-    }
-
-    100% {
-        opacity: 1;
-    }
+    animation-name: enter-top;
 }
 
 .home-signature-card {
     margin-top: 2%;
-}
-
-@keyframes smooth-appear {
-    to {
-        bottom: 20px;
-        opacity: 1;
-    }
 }
 
 .home-signature-card img {
@@ -180,18 +150,7 @@
     border-radius: 10px;
     animation: smooth-appear 2s ease forwards;
     animation-delay: 1s;
-    animation-name: enter;
-}
-
-@keyframes enter {
-    0% {
-        opacity: 0;
-        transform: translateY(-10%);
-    }
-
-    100% {
-        opacity: 1;
-    }
+    animation-name: enter-top;
 }
 
 .home-signature-card h1 {
@@ -199,21 +158,10 @@
     margin-top: 4%;
     transition: transform 2s;
     animation: linear;
-    animation-name: run;
+    animation-name: enter-right;
     animation-duration: .75s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-}
-
-@keyframes run {
-    0% {
-        opacity: 0;
-        transform: translateX(10%);
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 .home-signature-card {
@@ -235,24 +183,6 @@
     padding-bottom: 5px;
     margin-top: 2%;
 }
-
-@keyframes typing {
-    from {
-        opacity: 1;
-        width: 0
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
-}
-
 
 @media only screen and (max-width: 600px) {
     .home-wrapper {
