@@ -25,7 +25,22 @@
     padding: 6%;
     color: #EDEAE0;
     transition: transform .2s;
-}
+    animation: animatedgradient 10s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
 
 .project-picture {
     padding: 1%;
@@ -33,6 +48,8 @@
     border-radius: 5px;
     border: 2px solid transparent;
     margin-top: -2%;
+    animation: animatedgradient 10s ease alternate infinite;
+    background-size: 300% 300%;
 }
 
 .project-card:hover {
@@ -54,7 +71,6 @@
 }
 
 .project-tool{
-   
     border: none;
 }
 
@@ -65,6 +81,7 @@
 
 .project-link {
     font-family: "Bodoni Moda", serif;
+    font-weight: 600;
     text-transform: capitalize;
     color: #000;
     background: linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%);
@@ -73,7 +90,8 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-
+    animation: animatedgradient 10s ease alternate infinite;
+    background-size: 300% 300%;
 }
 
 .project-link:hover {

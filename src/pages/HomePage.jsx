@@ -26,16 +26,17 @@ function HomePage() {
                 <img src={signature} />
                 <h1>Full-Stack Web Developer</h1>
                 <h2>Coding with elegance and ease of use in mind.</h2>
+                <div className='divider'></div>
                 <div className='dev-icons'>
-                  <i class="devicon-html5-plain-wordmark"></i>
-                  <i class="devicon-css3-plain-wordmark"></i>
-                  <i class="devicon-javascript-plain"></i>
-                  <i class="devicon-mysql-plain-wordmark"></i>
-                  <i class="devicon-handlebars-original-wordmark"></i>
-                  <i class="devicon-mongodb-plain-wordmark"></i>
-                  <i class="devicon-express-original-wordmark"></i>
-                  <i class="devicon-react-original-wordmark"></i>
-                  <i class="devicon-nodejs-plain-wordmark"></i>
+                  <i class="devicon-html5-plain-wordmark dev-icon"></i>
+                  <i class="devicon-css3-plain-wordmark dev-icon"></i>
+                  <i class="devicon-javascript-plain dev-icon"></i>
+                  <i class="devicon-mysql-plain-wordmark dev-icon"></i>
+                  <i class="devicon-handlebars-original-wordmark dev-icon"></i>
+                  <i class="devicon-mongodb-plain-wordmark dev-icon"></i>
+                  <i class="devicon-express-original-wordmark dev-icon"></i>
+                  <i class="devicon-react-original-wordmark dev-icon"></i>
+                  <i class="devicon-nodejs-plain-wordmark dev-icon"></i>
                 </div>
               </div>
             </div>

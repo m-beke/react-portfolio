@@ -24,8 +24,22 @@
     background: linear-gradient(#021627, #021627) padding-box, linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%) border-box; 
     border-radius: 5%;
     border: 4px solid transparent;
-    
-}
+    animation: animatedgradient 10s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+  
+  
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
 
 .contact-wrapper h2 {
     font-size: 30px;
@@ -41,6 +55,8 @@
     border-radius: 50%;
     padding: 1%;
     background: linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%);
+    animation: animatedgradient 10s ease alternate infinite;
+    background-size: 300% 300%;
 }
 .info-card h3 {
     font-size: 25px;
@@ -113,6 +129,8 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  animation: animatedgradient 10s ease alternate infinite;
+  background-size: 300% 300%;
 }
 
 .submit-btn:hover {
