@@ -8,9 +8,9 @@ import { DrawUp, EnterRight, EnterLeft } from '../components/animations';
 function AboutPage() {
   return (
     <>
-      
-        <div className='about-wrapper'><Fade
-        direction='up'
+
+        <div className='about-wrapper'>
+          <Fade
         triggerOnce='true'
       >
           <Parallax
