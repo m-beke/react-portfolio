@@ -5,6 +5,7 @@ import { TextInput, Textarea, Button, Icon } from 'react-materialize';
 function ContactForm() {
     return (
         <form id="contact-form" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
             <h1>Contact Me</h1>
             <h2>Available For Hire!</h2>
             <TextInput
