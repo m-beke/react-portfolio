@@ -30,6 +30,7 @@
     "react-materialize": "^3.10.0",
     "react-router-dom": "^6.11.2",
     "react-select": "^5.8.0",
+    "render-build": "^0.3.5",
     "snapsvg": "^0.5.1",
     "sort-by": "^0.0.2"
   },
