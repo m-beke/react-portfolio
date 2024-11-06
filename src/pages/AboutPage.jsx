@@ -101,7 +101,7 @@ function AboutPage() {
                 <div className='secondary-p-wrapper'>
                   <EnterLeft>
                     <p className="about-p-end">
-                      When the COVID-19 pandemic hit, film work began to dry up. After the pandemic, that well stayed dry; I had to find a new line of work that would fill me with the same drive that music and film had. That search took me back to school, where I would learn how to code...
+                      When the COVID-19 pandemic hit, film work began to dry up. After the pandemic, that well stayed dry; I had to find a new line of work that would fill me with the same drive that music and film had. That search took me back to school, where I would discover a new passion in coding...
                     </p>
                   </EnterLeft>
                 </div>
