@@ -1,10 +1,7 @@
 import React from 'react';
 import '../styles/contact.css';
 import profilePic from "../assets/images/IMG_1448.jpg";
-import { TextInput } from 'react-materialize';
-import { Textarea } from 'react-materialize';
-import { Button } from 'react-materialize';
-import { Icon } from 'react-materialize';
+import ContactForm from '../components/contactForm.jsx';
 import { Fade, Slide } from 'react-awesome-reveal';
 
 const ContactPage = () => {
@@ -25,41 +22,9 @@ const ContactPage = () => {
                     </div>
                     <div className='contact-cards'>
                         <div className='form-card'>
-                            <h1>Contact Me</h1>
-                            <h2>Available For Hire!</h2>
-                            <TextInput
-                                className="input-field"
-                                icon={<Icon>account_circle</Icon>}
-                                id="TextInput-92"
-                                label="Name"
-                            />
-                            <TextInput
-                                className="input-field"
-                                email
-                                icon={<Icon>email</Icon>}
-                                id="TextInput-100"
-                                label="Email"
-                                validate
-                            />
-                            <Textarea
-                                className="text-area"
-                                icon={<Icon>message</Icon>}
-                                id="Textarea-114"
-                                label="Your Message"
-                            />
-                            <Button
-                                className='submit-btn'
-                                node="button"
-                                type="submit"
-                                waves="light"
-                            >
-                                Submit
-                                <Icon right>
-                                    send
-                                </Icon>
-                            </Button>
+                            <ContactForm></ContactForm>
                         </div>
-                    </div >
+                    </div>
                 </div>
             </Slide>
         </>
