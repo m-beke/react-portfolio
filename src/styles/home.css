@@ -285,6 +285,8 @@
     }
 
     .mobile-btn {
+        opacity: 0;
+        margin-bottom: 5%;
         font-family: "Bodoni Moda", serif;
         font-weight: 600;
         text-transform: capitalize;
@@ -297,7 +299,17 @@
         animation: animatedgradient 10s ease alternate infinite;
         background-size: 300% 300%;
         padding: 8px; 
+        animation: smooth-appear 1.5s ease forwards;
+    animation-name: enter-bottom;
+    animation-delay: 7.5s;
         transition: transform .1s;
+    }
+
+    .mobile-btn:nth-child(2) {
+        animation-delay: 7.6s;
+    }
+    .mobile-btn:nth-child(3) {
+        animation-delay: 7.7s;
     }
 
     .mobile-btn:hover{
