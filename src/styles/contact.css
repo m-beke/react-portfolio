@@ -25,9 +25,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1%;
     background-color: rgba(2, 22, 39, 0.9);
-    padding: 1%;
+    padding: 2%;
     border-radius: 10%;
     min-width: 30%;
     max-width: 30%;
@@ -37,6 +37,7 @@
     animation: animatedgradient 10s ease alternate infinite;
     background-size: 300% 300%;
   }
+
   
   
   @keyframes animatedgradient {
@@ -156,8 +157,11 @@
 }
 
 @media only screen and (max-width: 900px) {
+
     .contact-cards {
         min-width: 75%;
+        max-width: fit-content;
+       
     }
 
     .info-card img {

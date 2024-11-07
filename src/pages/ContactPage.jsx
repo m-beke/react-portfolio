@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/contact.css';
 import profilePic from "../assets/images/IMG_1448.jpg";
-
+import { BasicForm } from "../components/contactForm.jsx";
 import { Fade, Slide } from 'react-awesome-reveal';
 
 const ContactPage = () => {
@@ -13,11 +13,17 @@ const ContactPage = () => {
                         <div className='info-card'>
                             <img src={profilePic}></img>
                             <h1>Madeline Beke</h1>
-                            <h2>Let's Work Together!</h2>
-                            <h3>Phone:</h3>
-                            <a href="tel:+17277415382">+1 (727) 741‑5382</a>
-                            <h3>Email:</h3>
-                            <a href="mailto:maddie.beke@outlook.com">maddie.beke@outlook.com</a>
+                            <div className='contact-wrapper'>
+                                <div className='contact-info'>
+                                    <h2>Phone:</h2>
+                                    <a href="tel:+17277415382">+1 (727) 741‑5382</a>
+                                </div>
+                                <div className='contact-info'>
+                                    <h2>Email:</h2>
+
+                                    <a href="mailto:maddie.beke@outlook.com">maddie.beke@outlook.com</a>
+                                </div>
+                            </div>
                             <div className='contact-icons'>
                                 <i class="devicon-html5-plain-wordmark contact-icon"></i>
                                 <i class="devicon-css3-plain-wordmark contact-icon"></i>
@@ -29,6 +35,13 @@ const ContactPage = () => {
                                 <i class="devicon-react-original-wordmark contact-icon"></i>
                                 <i class="devicon-nodejs-plain-wordmark contact-icon"></i>
                             </div>
+                        </div>
+                    </div>
+                    <div className='contact-cards'>
+                        <div className='contact-card'>
+                            <h1>Available to hire</h1>
+                            <h2>Send me a message!</h2>
+                            <BasicForm></BasicForm>
                         </div>
                     </div>
                 </div>
