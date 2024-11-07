@@ -25,7 +25,12 @@
 }
 
 .section {
-    background-color: #021627;
+    background: linear-gradient(#021627, #021627) padding-box, linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%) border-box;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    transition: transform .2s;
+    animation: animatedgradient 10s ease alternate infinite;
+    background-size: 300% 300%;
 }
 
 .p-wrapper {

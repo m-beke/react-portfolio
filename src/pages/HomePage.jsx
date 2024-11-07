@@ -33,6 +33,7 @@ function HomePage() {
                   <i class="devicon-html5-plain-wordmark dev-icon"></i>
                   <i class="devicon-css3-plain-wordmark dev-icon"></i>
                   <i class="devicon-javascript-plain dev-icon"></i>
+                  <i class="devicon-sequelize-plain-wordmark dev-icon"></i>
                   <i class="devicon-mysql-plain-wordmark dev-icon"></i>
                   <i class="devicon-handlebars-original-wordmark dev-icon"></i>
                   <i class="devicon-mongodb-plain-wordmark dev-icon"></i>

@@ -80,14 +80,14 @@
     display: flex;
     justify-content: space-between;
     resize: both;
-    font-size: 50px;
+    font-size: 55px;
     margin-right: 5%;
     padding-top: 2%;
 }
 
 .dev-icon {
     opacity: 0;
-    animation: smooth-appear 2s ease forwards;
+    animation: smooth-appear 1s ease forwards;
     animation-delay: 6s;
     animation-name: enter-top;
 }
@@ -122,6 +122,9 @@
 
 .dev-icon:nth-child(9) {
     animation-delay: 6.8s;
+}
+.dev-icon:nth-child(10) {
+    animation-delay: 6.9s;
 }
 
 .quote-author {

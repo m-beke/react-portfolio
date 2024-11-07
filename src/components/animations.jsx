@@ -14,7 +14,7 @@ const drawUp = keyframes`
 `;
 
 export function DrawUp({ children }) {
-  return <Reveal keyframes={drawUp}delay={250}>{children}</Reveal>;
+  return <Reveal keyframes={drawUp}delay={500}>{children}</Reveal>;
 };
 
 const enterRight = keyframes`
@@ -28,7 +28,7 @@ const enterRight = keyframes`
 `;
 
 export function EnterRight({ children }) {
-  return <Reveal keyframes={enterRight}delay={750}>{children}</Reveal>;
+  return <Reveal keyframes={enterRight}delay={1250}>{children}</Reveal>;
 };
 
 const enterLeft = keyframes`
