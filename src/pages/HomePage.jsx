@@ -1,6 +1,8 @@
 import '../styles/home.css';
 import profilePic from "../assets/images/IMG_1448.jpg";
 import signature from "../assets/images/MadelineBeke.png";
+import { Link } from 'react-router-dom';
+import { Button } from "react-materialize"
 
 function HomePage() {
   return (
@@ -39,8 +41,41 @@ function HomePage() {
                   <i class="devicon-nodejs-plain-wordmark dev-icon"></i>
                 </div>
               </div>
+              <div className='mobile-btn-wrapper'>
+                <Button
+                  className='mobile-btn'
+                  node='button'
+                  small='true'>
+                  <Link to='/about'
+                    className='btn-text'
+                  >
+                    About
+                  </Link>
+                </Button>
+                <Button
+                  className='mobile-btn'
+                  node='button'
+                  small='true'>
+                  <Link to='/portfolio'
+                    className='btn-text'
+                  >
+                    Projects
+                  </Link>
+                </Button>
+                <Button
+                  className='mobile-btn'
+                  node='button'
+                  small='true'>
+                  <Link to='/contact'
+                    className='btn-text'
+                  >
+                    Contact
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </>

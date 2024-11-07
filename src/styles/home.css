@@ -184,63 +184,133 @@
     margin-top: 2%;
 }
 
+.mobile-btn-wrapper {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .home-wrapper {
-        margin: 0%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-cards {
+        
+        max-width: 85%;
     }
 
     .home-card {
-        display: flex;
         max-width: 75%;
         margin: 0%;
+        display: flex;
+        justify-content: center;
     }
 
     .quote {
         text-align: center;
         font-size: 15px;
+        animation-delay: 1s;
+    
     }
 
     .quote-author {
-        margin-top: -7%;
-        margin-right: 15%;
+        margin-top: -8%;
         font-size: 12px;
+        animation-delay: 1.5s;
+
     }
 
     .home-img-card {
         text-align: center;
+        
     }
 
     .home-img-card img {
         align-self: center;
+        margin: 0;
     }
 
     .home-signature-card img {
         display: none;
+       
     }
 
     .home-signature-card {
-        text-align: center;
-        margin: 0%;
+        display: flex;
+        justify-content: center;
+        
     }
 
     .home-signature-card h1 {
-        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        text-align: center;
+        text-wrap: nowrap;
+        animation-delay: 2s;
+        
     }
 
     .home-signature-card h2 {
-        font-size: 25px;
-        text-align: start;
+        font-size: 14px;
+        text-align: center;
+        margin-top: -1%;
+        padding-bottom: 1px;
+        animation-delay: 2.5s;
+        width: 34.5ch;
+        margin-bottom: 2%;
+    }
+
+    .divider {
+        margin: 0;
+        align-items: center;
     }
 
     .dev-icons {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        column-gap: 5px;
+        column-gap: 40px;
         row-gap: 25px;
         padding-top: 8%;
-        font-size: 75px;
+        font-size: 45px;
         letter-spacing: 10px;
-        margin-bottom: 5%;
+       margin: 0;
     }
+
+    .mobile-btn-wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15%;
+    }
+
+    .mobile-btn {
+        font-family: "Bodoni Moda", serif;
+        font-weight: 600;
+        text-transform: capitalize;
+        background: linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%);
+        border-radius: 25px;
+       border: none;
+       box-shadow: 1px 1px 1px 1px black;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        animation: animatedgradient 10s ease alternate infinite;
+        background-size: 300% 300%;
+        padding: 8px; 
+        transition: transform .1s;
+    }
+
+    .mobile-btn:hover{
+        transform: scale(.9);
+        box-shadow: 1px 1px;
+    }
+
+    .btn-text {
+        color: black;
+        transition: .1s;
+    } 
+    
+    .btn-text:hover {
+       color: white;
+    } 
 }

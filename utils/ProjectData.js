@@ -1,58 +1,93 @@
-import {assets} from '../utils/Assets.js';
+import { assets } from '../utils/Assets.js';
 
 export const projects = [
-    {
-      title: "Chronos",
-      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon, assets.mongoIcon, assets.expressIcon, assets.reactIcon, assets.nodeIcon, assets.materializeIcon],
-      description:
-        "A simple calendar app designed for creating, planning, and tracking events.",
-      picture: [assets.chronosPic],
-      link: "https://chronos-b9mn.onrender.com/",
-      repository: "https://github.com/m-beke/chronos"
-    },
-    {
-      title: "StreamScape",
-      tools:[assets.htmlIcon, assets.cssIcon, assets.jsIcon, assets.handlebarsIcon, assets.sequelIcon, assets.sqlIcon, assets.nodeIcon, assets.materializeIcon],
-      description:
-        "A search tool that you can use to check if your favorite movie/show is streaming.",
-      picture: [assets.streamScapePic],
-      link: "https://still-oasis-92537-ca9b2c9be51c.herokuapp.com/",
-      repository: "https://github.com/m-beke/StreamScape"
-    },
-    {
-      title: "Flavor Trail",
-      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon, assets.materializeIcon],
-      description:
-        "A search tool for finding the best rated restaurants in the area you search for.",
-      picture: [assets.flavorTrailPic],
-      link: "https://shawki45.github.io/Flavor-Trail/",
-      repository: "https://github.com/Shawki45/Flavor-Trail"
-    },
-    {
-      title: "Weather Dashboard",
-      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon],
-      description:
-        "An app for looking up the weather by city.",
-      picture: [assets.weatherDashPic],
-      link: "https://m-beke.github.io/weather-dashboard/",
-      repository: "https://github.com/m-beke/weather-dashboard"
-    },
-    {
-      title: "Code Quiz",
-      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon],
-      description:
-        "A timed quiz on coding knowledge.",
-      picture: [assets.codeQuizPic],
-      link: "https://m-beke.github.io/code-quiz/",
-      repository: "https://github.com/m-beke/code-quiz"
-    },
-    {
-      title: "Password Generator",
-      tools: [assets.htmlIcon, assets.cssIcon, assets.jsIcon],
-      description:
-        "A tool for randomly generating a unique password.",
-      picture: [assets.passwordGenPic],
-      link: "https://m-beke.github.io/password-generator/",
-      repository: "https://github.com/m-beke/password-generator"
-    },
-  ];
+  {
+    title: "Chronos",
+    tools: [
+      assets.htmlIcon,
+      assets.cssIcon,
+      assets.jsIcon,
+      assets.mongoIcon,
+      assets.expressIcon,
+      assets.reactIcon,
+      assets.nodeIcon,
+      assets.materializeIcon
+    ],
+    description:
+      "A simple calendar app designed for creating, planning, and tracking events.",
+    picture: [assets.chronosPic],
+    link: "https://chronos-b9mn.onrender.com/",
+    repository: "https://github.com/m-beke/chronos"
+  },
+  {
+    title: "StreamScape",
+    tools: [
+      assets.htmlIcon,
+      assets.cssIcon,
+      assets.jsIcon,
+      assets.handlebarsIcon,
+      assets.sequelIcon,
+      assets.sqlIcon,
+      assets.nodeIcon,
+      assets.materializeIcon
+    ],
+    description:
+      "A search tool that you can use to check if your favorite movie/show is streaming.",
+    picture: [assets.streamScapePic],
+    link: "https://still-oasis-92537-ca9b2c9be51c.herokuapp.com/",
+    repository: "https://github.com/m-beke/StreamScape"
+  },
+  {
+    title: "Flavor Trail",
+    tools: [
+      assets.htmlIcon,
+      assets.cssIcon,
+      assets.jsIcon,
+      assets.materializeIcon
+    ],
+    description:
+      "A search tool for finding the best rated restaurants in the area you search for.",
+    picture: [assets.flavorTrailPic],
+    link: "https://shawki45.github.io/Flavor-Trail/",
+    repository: "https://github.com/Shawki45/Flavor-Trail"
+  },
+  {
+    title: "Weather Dashboard",
+    tools: [
+      assets.htmlIcon,
+      assets.cssIcon,
+      assets.jsIcon
+    ],
+    description:
+      "An app for looking up the weather by city.",
+    picture: [assets.weatherDashPic],
+    link: "https://m-beke.github.io/weather-dashboard/",
+    repository: "https://github.com/m-beke/weather-dashboard"
+  },
+  {
+    title: "Code Quiz",
+    tools: [
+      assets.htmlIcon,
+      assets.cssIcon,
+      assets.jsIcon
+    ],
+    description:
+      "A timed quiz on coding knowledge.",
+    picture: [assets.codeQuizPic],
+    link: "https://m-beke.github.io/code-quiz/",
+    repository: "https://github.com/m-beke/code-quiz"
+  },
+  {
+    title: "Password Generator",
+    tools: [
+      assets.htmlIcon,
+      assets.cssIcon,
+      assets.jsIcon
+    ],
+    description:
+      "A tool for randomly generating a unique password.",
+    picture: [assets.passwordGenPic],
+    link: "https://m-beke.github.io/password-generator/",
+    repository: "https://github.com/m-beke/password-generator"
+  },
+];
