@@ -11,7 +11,7 @@ import { mdiFileDownloadOutline } from '@mdi/js';
 import { mdiInformationOutline } from '@mdi/js';
 import { mdiApplicationBracketsOutline } from '@mdi/js';
 import { mdiEmailArrowRightOutline } from '@mdi/js';
-
+// import { transition } from '../components/animations.jsx';
 
 
 

@@ -27,6 +27,7 @@
     transition: transform .2s;
     animation: animatedgradient 10s ease alternate infinite;
     background-size: 300% 300%;
+    font-family: "Libre Bodoni", serif;
   }
   
   
@@ -120,6 +121,13 @@
         margin: 0%;
     }
 
+    .project-card {
+        padding: 10px;
+    }
+
+   .header {
+    padding:15px;
+   }
 
     .project-card:hover {
         box-shadow: none;
@@ -129,5 +137,10 @@
     .project-link:hover {
         transform: scale(.9);
 
+    }
+
+    .project-tool {
+        max-width: 10%;
+       
     }
 }

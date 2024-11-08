@@ -3,6 +3,7 @@ import { assets } from '../utils/Assets.js';
 export const projects = [
   {
     title: "Chronos",
+    font: "Caesar Dressing, serif",
     tools: [
       assets.htmlIcon,
       assets.cssIcon,
@@ -14,13 +15,14 @@ export const projects = [
       assets.materializeIcon
     ],
     description:
-      "A simple calendar app designed for creating, planning, and tracking events.",
+      "A calendar app designed for creating, planning, and tracking events.",
     picture: [assets.chronosPic],
     link: "https://chronos-b9mn.onrender.com/",
     repository: "https://github.com/m-beke/chronos"
   },
   {
     title: "StreamScape",
+    font: 'Faculty Glyphic, sans-serif',
     tools: [
       assets.htmlIcon,
       assets.cssIcon,
@@ -39,6 +41,7 @@ export const projects = [
   },
   {
     title: "Flavor Trail",
+    font: "Prata, serif",
     tools: [
       assets.htmlIcon,
       assets.cssIcon,
@@ -53,32 +56,35 @@ export const projects = [
   },
   {
     title: "Weather Dashboard",
+    font: 'DM Serif Text, serif',
     tools: [
       assets.htmlIcon,
       assets.cssIcon,
       assets.jsIcon
     ],
     description:
-      "An app for looking up the weather by city.",
+      "An app for looking up the current weather by city.",
     picture: [assets.weatherDashPic],
     link: "https://m-beke.github.io/weather-dashboard/",
     repository: "https://github.com/m-beke/weather-dashboard"
   },
   {
     title: "Code Quiz",
+    font: "Oswald, serif",
     tools: [
       assets.htmlIcon,
       assets.cssIcon,
       assets.jsIcon
     ],
     description:
-      "A timed quiz on coding knowledge.",
+      "A timed quiz on coding knowledge that stores the user's high scores.",
     picture: [assets.codeQuizPic],
     link: "https://m-beke.github.io/code-quiz/",
     repository: "https://github.com/m-beke/code-quiz"
   },
   {
     title: "Password Generator",
+    font: "doto, serif",
     tools: [
       assets.htmlIcon,
       assets.cssIcon,

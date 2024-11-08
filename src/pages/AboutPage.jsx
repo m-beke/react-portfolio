@@ -8,10 +8,9 @@ import { DrawUp, EnterRight, EnterLeft } from '../components/animations';
 function AboutPage() {
   return (
     <>
-
       <div className='about-wrapper'>
         <Fade
-          direction='right'
+          direction='left'
           triggerOnce='true'
         >
           <Parallax
@@ -21,7 +20,7 @@ function AboutPage() {
             }}
             children={<Fade
             direction='down'
-              delay={750}
+              delay={500}
             >
               <h1 className='about-heading-main'>
                 About

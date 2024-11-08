@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import { projects } from "../../utils/ProjectData";
 import { Row, Col, Card, Button, CardTitle } from "react-materialize";
-import { Fade } from 'react-awesome-reveal';
+import { Fade, Slide } from 'react-awesome-reveal';
 
 
 function Portfolio() {
     return (
         <div className="project-div">
             {projects.map((project, index) => (
-                <Fade
+                <Slide
                     key={project.id}
-                    direction="down"
+                    direction="left"
                     delay={index * 300}
                     duration={1000}
                     triggerOnce
@@ -28,7 +28,7 @@ function Portfolio() {
                                     ]}
                                     header={
                                         <>
-                                            <h2 className="header">{project.title}</h2>
+                                            <h2 className="header" style={{fontFamily: project.font}}>{project.title}</h2>
                                             <CardTitle
                                                 className="project-picture"
                                                 image={project.picture}
@@ -51,7 +51,7 @@ function Portfolio() {
                                 </Card>
                             </Col>
                         </Row>
-                    </Link></Fade>
+                    </Link></Slide>
             ))
             }
         </div >

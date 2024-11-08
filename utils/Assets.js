@@ -3,7 +3,7 @@ import aboutMusicHeader from "../src/assets/images/aboutMusicHeader.jpg";
 import aboutFilmHeader from "../src/assets/images/aboutFilmHeader.jpg";
 import aboutCodeHeader from "../src/assets/images/aboutCodeHeader.jpg";
 import chronosPic from "../src/assets/images/chronos-screenshot.png";
-import streamScapePic from "../src/assets/images/streamscape-screenshot.png";
+import streamScapePic from "../src/assets/images/streamscape-screenshot.jpg";
 import flavorTrailPic from "../src/assets/images/flavor-trail-screenshot-2.png";
 import weatherDashPic from "../src/assets/images/weather_dash_screenshot.png";
 import codeQuizPic from "../src/assets/images/codeQuizPic.png";
