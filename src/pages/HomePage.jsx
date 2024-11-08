@@ -33,6 +33,8 @@ function HomePage() {
                   <i class="devicon-html5-plain-wordmark dev-icon"></i>
                   <i class="devicon-css3-plain-wordmark dev-icon"></i>
                   <i class="devicon-javascript-plain dev-icon"></i>
+                  <i class="devicon-json-plain dev-icon"></i>
+                  <i class="devicon-jquery-plain-wordmark dev-icon"></i>
                   <i class="devicon-sequelize-plain-wordmark dev-icon"></i>
                   <i class="devicon-mysql-plain-wordmark dev-icon"></i>
                   <i class="devicon-handlebars-original-wordmark dev-icon"></i>
@@ -40,6 +42,7 @@ function HomePage() {
                   <i class="devicon-express-original-wordmark dev-icon"></i>
                   <i class="devicon-react-original-wordmark dev-icon"></i>
                   <i class="devicon-nodejs-plain-wordmark dev-icon"></i>
+                  <i class="devicon-materializecss-plain dev-icon"></i>
                 </div>
               </div>
               <div className='mobile-btn-wrapper'>

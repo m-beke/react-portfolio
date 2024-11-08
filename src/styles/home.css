@@ -80,8 +80,7 @@
     display: flex;
     justify-content: space-between;
     resize: both;
-    font-size: 55px;
-    margin-right: 5%;
+    font-size: 50px;
     padding-top: 2%;
 }
 
@@ -126,6 +125,16 @@
 .dev-icon:nth-child(10) {
     animation-delay: 6.9s;
 }
+.dev-icon:nth-child(11) {
+    animation-delay: 7s;
+}
+.dev-icon:nth-child(12) {
+    animation-delay: 7.1s;
+}
+.dev-icon:nth-child(13) {
+    animation-delay: 7.2s;
+}
+
 
 .quote-author {
     font-style: normal;
