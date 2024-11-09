@@ -21,7 +21,8 @@ nav {
     text-shadow: 1px 1px 4px black;
     transition: transform .2s ease-in-out;
     transition: text-shadow .5s;
-    padding: 50px
+    padding: 50px;
+   
 }
 
 .home-btn:hover {
@@ -29,8 +30,10 @@ nav {
 }
 
 .brand-logo {
-    font-family: "Bodoni Moda", serif;
+    font-family: "Bodoni Moda", serif; 
 }
+
+
 
 nav img {
     max-width: 15%;

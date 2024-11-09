@@ -1,6 +1,7 @@
 import '../styles/home.css';
 import profilePic from "../assets/images/IMG_1448.jpg";
 import signature from "../assets/images/MadelineBeke.png";
+import RandomQuote from "../components/RandomQuotes.jsx";
 import { Link } from 'react-router-dom';
 import { Button } from "react-materialize"
 
@@ -13,11 +14,8 @@ function HomePage() {
             <div className='home-content'>
               <div className='home-img-card'>
                 <img src={profilePic}></img>
-                <div className='quote'>
-                  <p>"Nothing is impossible, the word itself says 'I'm possible'!"</p>
-                </div>
-                <div className='quote-author'>
-                  <p>- Audrey Hepburn</p>
+                <div className='quote-wrapper'>
+                <RandomQuote></RandomQuote>
                 </div>
               </div>
             </div>
