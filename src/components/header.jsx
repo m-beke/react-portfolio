@@ -11,12 +11,8 @@ import { mdiFileDownloadOutline } from '@mdi/js';
 import { mdiInformationOutline } from '@mdi/js';
 import { mdiApplicationBracketsOutline } from '@mdi/js';
 import { mdiEmailArrowRightOutline } from '@mdi/js';
-// import { transition } from '../components/animations.jsx';
-
-
-
 import profilePic from "../assets/images/IMG_1448.jpg";
-import pdf from "../assets/pdf/MB_Coding_Resume.pdf";
+import pdf from "../assets/pdf/MadelineBekeResume.pdf";
 
 function Header() {
   return (
@@ -115,7 +111,7 @@ function Header() {
             Contact
           </Link>
 
-          <a href={pdf} className='portfolio-link' download="MB_Coding_Resume">
+          <a href={pdf} className='portfolio-link' download="MadelineBekeResume">
             <Icon className="nav-icon" path={mdiFileDownloadOutline} size={1} color="white" ></Icon>
             Resume
           </a>
