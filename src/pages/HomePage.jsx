@@ -41,6 +41,7 @@ function HomePage() {
                   <i class="devicon-react-original-wordmark dev-icon"></i>
                   <i class="devicon-nodejs-plain-wordmark dev-icon"></i>
                   <i class="devicon-materializecss-plain dev-icon"></i>
+                  <i class="devicon-bootstrap-plain-wordmark dev-icon"></i>
                 </div>
               </div>
               <div className='mobile-btn-wrapper'>

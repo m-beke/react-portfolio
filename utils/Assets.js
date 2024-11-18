@@ -19,10 +19,12 @@ import nodeIcon from "../src/assets/images/nodejs.svg";
 import expressIcon from "../src/assets/images/Express.svg";
 import sequelIcon from "../src/assets/images/sequelize.svg";
 import sqlIcon from "../src/assets/images/mysql.svg";
-import materializeIcon from "../src/assets/images/materializecss.svg"
+import materializeIcon from "../src/assets/images/materializecss.svg";
+import bootstrapIcon from "../src/assets/images/bootstrap.svg";
+
 
 
 export const flavorTools = {htmlIcon, cssIcon, jsIcon};
 
-export const assets = {aboutHeader, aboutFilmHeader, aboutMusicHeader, aboutCodeHeader, chronosPic, streamScapePic, flavorTrailPic, weatherDashPic, codeQuizPic, passwordGenPic, htmlIcon, cssIcon, jsIcon, jQueryIcon, handlebarsIcon, reactIcon, mongoIcon, nodeIcon, expressIcon, sequelIcon, sqlIcon, materializeIcon};
+export const assets = {aboutHeader, aboutFilmHeader, aboutMusicHeader, aboutCodeHeader, chronosPic, streamScapePic, flavorTrailPic, weatherDashPic, codeQuizPic, passwordGenPic, htmlIcon, cssIcon, jsIcon, jQueryIcon, handlebarsIcon, reactIcon, mongoIcon, nodeIcon, expressIcon, sequelIcon, sqlIcon, materializeIcon, bootstrapIcon};
 

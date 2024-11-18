@@ -3,13 +3,6 @@ import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
 import 'animate.css';
 
-// function transition() { 
-//   return (
-//     <div className='animate__animated animate__fadeOutDown app-wrapper'></div>
-// )
-// };
-// export default transition;
-
 const drawUp = keyframes`
   from {
       transform: scaleY(0);

@@ -46,6 +46,7 @@ export const projects = [
       assets.htmlIcon,
       assets.cssIcon,
       assets.jsIcon,
+      assets.jQueryIcon,
       assets.materializeIcon
     ],
     description:
@@ -56,11 +57,13 @@ export const projects = [
   },
   {
     title: "Weather Dashboard",
-    font: 'DM Serif Text, serif',
+    font: "Sulphur Point, serif",
     tools: [
       assets.htmlIcon,
       assets.cssIcon,
-      assets.jsIcon
+      assets.jsIcon,
+      assets.jQueryIcon,
+      assets.bootstrapIcon
     ],
     description:
       "An app for looking up the current weather by city.",
