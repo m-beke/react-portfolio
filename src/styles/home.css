@@ -134,18 +134,23 @@
 .dev-icon:nth-child(9) {
     animation-delay: 6.8s;
 }
+
 .dev-icon:nth-child(10) {
     animation-delay: 6.9s;
 }
+
 .dev-icon:nth-child(11) {
     animation-delay: 7s;
 }
+
 .dev-icon:nth-child(12) {
     animation-delay: 7.1s;
 }
+
 .dev-icon:nth-child(13) {
     animation-delay: 7.2s;
 }
+
 .dev-icon:nth-child(14) {
     animation-delay: 7.3s;
 }
@@ -215,6 +220,67 @@
     display: none;
 }
 
+@media only screen and (max-width: 1600px) {
+    .home-signature-card {
+        max-width: 100%
+    }
+
+    .home-content {
+        margin: 0;
+    }
+
+    .dev-icon {
+        font-size: 30px;
+    }
+
+    .home-signature-card h1 {
+        font-size: 34px;
+    }
+
+    .home-signature-card h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: -1%;
+        padding-bottom: 1px;
+        animation-delay: 2.5s;
+        width: 34.5ch;
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-wrapper {
+        margin: 0;
+    }
+
+    .home-cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0;
+    }
+
+    .home-card {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-content {
+        margin: 0;
+    }
+
+    .home-img-card img {
+        max-width: 70%;
+        align-self: center;
+    }
+    .quote {
+        margin: 0;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
     .home-wrapper {
         display: flex;
@@ -222,7 +288,7 @@
     }
 
     .home-cards {
-        
+
         max-width: 85%;
     }
 
@@ -234,7 +300,7 @@
     }
 
     .quote-wrapper:hover {
-       transform: scale(.9);
+        transform: scale(.9);
     }
 
     .quote {
@@ -253,7 +319,7 @@
 
     .home-img-card {
         text-align: center;
-        
+
     }
 
     .home-img-card img {
@@ -263,13 +329,13 @@
 
     .home-signature-card img {
         display: none;
-       
+
     }
 
     .home-signature-card {
         display: flex;
         justify-content: center;
-        
+
     }
 
     .home-signature-card h1 {
@@ -279,7 +345,7 @@
         text-align: center;
         text-wrap: nowrap;
         animation-delay: 2s;
-        
+
     }
 
     .home-signature-card h2 {
@@ -306,7 +372,7 @@
         padding-top: 8%;
         font-size: 45px;
         letter-spacing: 10px;
-       margin: 0;
+        margin: 0;
     }
 
     .mobile-btn-wrapper {
@@ -323,27 +389,28 @@
         text-transform: capitalize;
         background: linear-gradient(45deg, #d4af37 5%, #debc5b 10%, #e7c97c 30%, #efd69d 50%, #e7c97c 70%, #debc5b 80%, #d4af37 95%);
         border-radius: 25px;
-       border: none;
-       box-shadow: 1px 1px 1px 1px black;
+        border: none;
+        box-shadow: 1px 1px 1px 1px black;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
         animation: animatedgradient 10s ease alternate infinite;
         background-size: 300% 300%;
-        padding: 8px; 
+        padding: 8px;
         animation: smooth-appear 1.5s ease forwards;
-    animation-name: enter-bottom;
-    animation-delay: 7.5s;
+        animation-name: enter-bottom;
+        animation-delay: 7.5s;
         transition: transform .1s;
     }
 
     .mobile-btn:nth-child(2) {
         animation-delay: 7.6s;
     }
+
     .mobile-btn:nth-child(3) {
         animation-delay: 7.7s;
     }
 
-    .mobile-btn:hover{
+    .mobile-btn:hover {
         transform: scale(.9);
         box-shadow: 1px 1px;
     }
@@ -351,9 +418,9 @@
     .btn-text {
         color: black;
         transition: .1s;
-    } 
-    
+    }
+
     .btn-text:hover {
-       color: white;
-    } 
+        color: white;
+    }
 }

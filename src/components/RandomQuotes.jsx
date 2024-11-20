@@ -14,12 +14,20 @@ function RandomQuote() {
             quote: `"The philosophers have only interpreted the world, in various ways. The point however, is to change it."`,
             author: "-Karl Marx"
         },
+        {
+            quote: `"Negativity is the enemy of creativity."`,
+            author: "-David Lynch"
+        },
 
     ]
     const [randomQuote, setRandomQuote] = useState(quotes[0]);
 
     const handleClick = () => {
-        const randomIndex = Math.floor(Math.random() * quotes.length);
+        let randomIndex;
+
+        do {
+            randomIndex = Math.floor(Math.random() * quotes.length);
+        } while (quotes[randomIndex].quote === randomQuote.quote);
         setRandomQuote(quotes[randomIndex]);
     };
 
