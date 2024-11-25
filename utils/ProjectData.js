@@ -73,11 +73,12 @@ export const projects = [
   },
   {
     title: "Code Quiz",
-    font: "Oswald, serif",
+    font: "Monoton, sans-serif",
     tools: [
       assets.htmlIcon,
       assets.cssIcon,
-      assets.jsIcon
+      assets.jsIcon,
+      assets.bootstrapIcon
     ],
     description:
       "A timed quiz on coding knowledge that stores the user's high scores.",
