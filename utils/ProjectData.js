@@ -88,7 +88,7 @@ export const projects = [
   },
   {
     title: "Password Generator",
-    font: "doto, serif",
+    font: "VT323, serif",
     tools: [
       assets.htmlIcon,
       assets.cssIcon,
