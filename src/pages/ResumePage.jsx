@@ -7,7 +7,6 @@ import mongoDB from '../assets/images/mongodb.svg';
 import mySQL from '../assets/images/mysql.svg';
 import sequelize from '../assets/images/sequelize.svg';
 import reactImg from '../assets/images/react.svg';
-import pdf from "../assets/pdf/MB_Coding_Resume.pdf";
 
 const ResumePage = () => {
     return (

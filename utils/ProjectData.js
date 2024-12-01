@@ -21,25 +21,6 @@ export const projects = [
     repository: "https://github.com/m-beke/chronos"
   },
   {
-    title: "StreamScape",
-    font: 'Faculty Glyphic, sans-serif',
-    tools: [
-      assets.htmlIcon,
-      assets.cssIcon,
-      assets.jsIcon,
-      assets.handlebarsIcon,
-      assets.sequelIcon,
-      assets.sqlIcon,
-      assets.nodeIcon,
-      assets.materializeIcon
-    ],
-    description:
-      "A search tool that you can use to check if your favorite movie/show is streaming.",
-    picture: [assets.streamScapePic],
-    link: "https://still-oasis-92537-ca9b2c9be51c.herokuapp.com/",
-    repository: "https://github.com/m-beke/StreamScape"
-  },
-  {
     title: "Flavor Trail",
     font: "Prata, serif",
     tools: [
